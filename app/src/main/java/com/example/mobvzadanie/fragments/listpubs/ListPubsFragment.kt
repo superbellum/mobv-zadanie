@@ -1,4 +1,4 @@
-package com.example.mobvzadanie
+package com.example.mobvzadanie.fragments.listpubs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,6 +12,7 @@ import androidx.core.view.MenuProvider
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
+import com.example.mobvzadanie.R
 import com.example.mobvzadanie.adapter.PubItemAdapter
 import com.example.mobvzadanie.data.Datasource
 import com.example.mobvzadanie.databinding.FragmentListPubsBinding

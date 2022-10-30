@@ -2,15 +2,15 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="FindPubFormFragment">
+    tools:context=".fragments.findmypub.FindPubFormFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/findPubFormConstraint"
+        android:id="@+id/welcomeConstraint"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/fill_form_text"
+            android:id="@+id/welcomeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Fill the form:"
@@ -31,7 +31,7 @@
             android:inputType="text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/fill_form_text" />
+            app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
 
         <EditText
             android:id="@+id/form_pub_name_edit"

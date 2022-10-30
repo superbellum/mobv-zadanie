@@ -1,4 +1,4 @@
-package com.example.mobvzadanie
+package com.example.mobvzadanie.fragments.findmypub
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import com.example.mobvzadanie.R
 import com.example.mobvzadanie.databinding.FragmentFindPubMapBinding
 import com.example.mobvzadanie.helpers.IntentHelper
 
@@ -29,10 +30,6 @@ class FindPubMapFragment : Fragment() {
                 args.pubLatitude,
                 args.pubLongitude
             )
-        }
-
-        binding.playAnimButton.setOnClickListener {
-            binding.colaAnimation.playAnimation();
         }
 
         return binding.root

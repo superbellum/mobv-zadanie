@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mobvzadanie.ListPubsFragmentDirections
 import com.example.mobvzadanie.R
 import com.example.mobvzadanie.data.Pub
+import com.example.mobvzadanie.fragments.listpubs.ListPubsFragmentDirections
 
 class PubItemAdapter(
     private val context: Context,

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_centerVertical="false"
-    tools:context="PubDetailFragment">
+    tools:context=".fragments.listpubs.PubDetailFragment">
 
     <data>
 
