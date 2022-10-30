@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.22871702637889688" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4735" />
+        <entry key="app/src/main/res/drawable/ic_baseline_web_24.xml" value="0.4735" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.4735" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3026041666666667" />
+        <entry key="app/src/main/res/layout/establishment_list_item.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_establishment_detail.xml" value="0.5090579710144928" />
+        <entry key="app/src/main/res/layout/fragment_find_establishment_form.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_find_establishment_map.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_find_restaurant_form.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_find_restaurant_map.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_form.xml" value="0.44882246376811596" />
+        <entry key="app/src/main/res/layout/fragment_list_establishments.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_list_restaurants.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_show.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_title.xml" value="0.378125" />
+        <entry key="app/src/main/res/menu/sort_menu.xml" value="0.565625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

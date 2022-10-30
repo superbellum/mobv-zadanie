@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_centerVertical="false"
+    tools:context="PubDetailFragment">
+
+    <data>
+
+        <variable
+            name="pub"
+            type="com.example.mobvzadanie.data.Pub" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/pub_detail_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="0.8"
+                android:text="@{pub.tags.name}"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/open_pub_map_button"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                app:icon="@drawable/ic_baseline_map_24"
+                app:iconPadding="0dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/pub_detail_opening_hours_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.opening_hours}"
+            android:tooltipText="Opening Hours"
+            app:drawableStartCompat="@drawable/ic_baseline_access_time_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_amenity_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.amenity}"
+            android:tooltipText="Amenity"
+            app:drawableStartCompat="@drawable/ic_baseline_restaurant_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_operator_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.operator}"
+            android:tooltipText="Operator"
+            app:drawableStartCompat="@drawable/ic_baseline_work_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_level_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.level}"
+            android:tooltipText="Level"
+            app:drawableStartCompat="@drawable/ic_baseline_123_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_source_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.source}"
+            android:tooltipText="Source"
+            app:drawableStartCompat="@drawable/ic_baseline_source_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_seating_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.outdoor_seating}"
+            android:tooltipText="Outdoor Seating"
+            app:drawableStartCompat="@drawable/ic_baseline_airline_seat_recline_normal_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_internet_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.internet_access}"
+            android:tooltipText="Internet Access"
+            app:drawableStartCompat="@drawable/ic_baseline_wifi_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_website_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="@{pub.tags.website}"
+            android:textColorLink="@color/teal_700"
+            app:drawableStartCompat="@drawable/ic_baseline_web_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_phone_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:text="@{pub.tags.phone}"
+            android:textColorLink="@color/teal_700"
+            app:drawableStartCompat="@drawable/ic_baseline_local_phone_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_smoking_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.smoking}"
+            android:tooltipText="Smoking"
+            app:drawableStartCompat="@drawable/ic_baseline_smoking_rooms_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_wheelchair_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.wheelchair}"
+            android:tooltipText="Wheelchair"
+            app:drawableStartCompat="@drawable/ic_baseline_wheelchair_pickup_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_shop_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{pub.tags.shop}"
+            android:tooltipText="Shop"
+            app:drawableStartCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+        <TextView
+            android:id="@+id/pub_detail_email_text"
+            style="@style/PubDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:text="@{pub.tags.email}"
+            android:textColorLink="@color/teal_700"
+            app:drawableStartCompat="@drawable/ic_baseline_alternate_email_24" />
+
+        <Button
+            android:id="@+id/delete_pub_button"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Delete"
+            app:icon="@drawable/ic_baseline_delete_24"
+            app:iconTint="#F44336" />
+
+    </LinearLayout>
+
+</layout>

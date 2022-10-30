@@ -1,0 +1,4358 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.58.5 b0c4acbb",
+  "osm3s": {
+    "timestamp_osm_base": "2022-10-11T13:15:19Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 259285030,
+      "lat": 48.1440099,
+      "lon": 17.1080411,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2022-09-07",
+        "name": "Matyšák shop & Globo wine bar",
+        "opening_hours:covid19": "Mo-Su 09:00-19:30",
+        "operator": "Matyšák Investment",
+        "shop": "wine",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 259480347,
+      "lat": 48.1460945,
+      "lon": 17.0990481,
+      "tags": {
+        "amenity": "bar",
+        "name": "Klub pod lampou",
+        "opening_hours": "Mo-Th 10:00-00:00; Fr, Sa 10:00-01:00; Su 10:00-00:00",
+        "operator": ".tyzden",
+        "website": "http://www.klubpodlampou.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 276914392,
+      "lat": 48.1294945,
+      "lon": 17.0992868,
+      "tags": {
+        "amenity": "pub",
+        "level": "1",
+        "name": "Piváreň U Laca",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "payment:account_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 276918102,
+      "lat": 48.1278212,
+      "lon": 17.1000143,
+      "tags": {
+        "amenity": "pub",
+        "name": "Krčma Lipa",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 277368834,
+      "lat": 48.1219436,
+      "lon": 17.1139854,
+      "tags": {
+        "amenity": "pub",
+        "level": "0",
+        "name": "Kométa",
+        "opening_hours": "Mo-Fr 10:00-23:00; Sa,Su 09:30-23:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 277456254,
+      "lat": 48.1575684,
+      "lon": 17.0530650,
+      "tags": {
+        "amenity": "pub",
+        "name": "Wigwam",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 277675870,
+      "lat": 48.1786793,
+      "lon": 17.0505322,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "3",
+        "addr:street": "Harmincova",
+        "addr:streetnumber": "3",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Black Rose",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "website": "https://www.blackrose.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 277675905,
+      "lat": 48.1757031,
+      "lon": 17.0496825,
+      "tags": {
+        "amenity": "pub",
+        "name": "Club polície"
+      }
+    },
+    {
+      "type": "node",
+      "id": 277688818,
+      "lat": 48.1300920,
+      "lon": 17.0941536,
+      "tags": {
+        "amenity": "pub",
+        "name": "Sweet Home",
+        "old_name": "BGC",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr 10:00-24:00; Sa 14:00-24:00; Su 14:00-22:00",
+        "phone": "+421 903 269 102"
+      }
+    },
+    {
+      "type": "node",
+      "id": 279025448,
+      "lat": 48.1543135,
+      "lon": 17.0583379,
+      "tags": {
+        "addr:housenumber": "3/A",
+        "addr:postcode": "841 02",
+        "addr:street": "Segnerova",
+        "amenity": "pub",
+        "email": "info@nasehospoda-karloveska.sk",
+        "internet_access": "wlan",
+        "name": "Naše hospoda Karloveská",
+        "phone": "+421 22 079 4094",
+        "website": "http://www.nasehospoda-karloveska.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 282321126,
+      "lat": 48.0980309,
+      "lon": 17.1084884,
+      "tags": {
+        "amenity": "pub",
+        "name": "Braník Pub",
+        "opening_hours": "Mo-Su 10:00-22:00; Fr 10:00-23:00",
+        "operator": "SLOVGAMESGASTRO"
+      }
+    },
+    {
+      "type": "node",
+      "id": 282321988,
+      "lat": 48.1076430,
+      "lon": 17.1063145,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "1",
+        "name": "U kamoša",
+        "old_name": "Swamp pub",
+        "opening_hours": "Mo-Fr 14:00-22:00; Sa 16:00-22:00; Su 12:00-22:00",
+        "outdoor_seating": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 283636772,
+      "lat": 48.1232960,
+      "lon": 17.0936671,
+      "tags": {
+        "amenity": "pub",
+        "name": "El Matador",
+        "opening_hours": "Mo-Su 10:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 286357921,
+      "lat": 48.1223571,
+      "lon": 17.0625727,
+      "tags": {
+        "amenity": "pub",
+        "name": "Kaviareň AutoBerg",
+        "operator": "Monaco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 286397193,
+      "lat": 48.1516001,
+      "lon": 17.1202192,
+      "tags": {
+        "alt_name": "Bistro HE-MI",
+        "amenity": "pub",
+        "name": "Bistro u Hemi",
+        "opening_hours": "Mo-Fr 08:00-21:30; Su 16:00-21:30",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 287424581,
+      "lat": 48.1625693,
+      "lon": 17.0497834,
+      "tags": {
+        "amenity": "pub",
+        "name": "Coral"
+      }
+    },
+    {
+      "type": "node",
+      "id": 287430990,
+      "lat": 48.1638207,
+      "lon": 17.0503002,
+      "tags": {
+        "amenity": "pub",
+        "name": "Lišiak Pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 288754167,
+      "lat": 48.1475592,
+      "lon": 17.1063371,
+      "tags": {
+        "addr:city": "Bratislava - Staré Mesto",
+        "addr:postcode": "811 03",
+        "addr:street": "Konventná",
+        "amenity": "pub",
+        "brewery": "Bernard",
+        "contact:phone": "+421 2 207 46 201",
+        "name": "Bernard pri Lýceu",
+        "opening_hours": "Mo-Su 08:00-23:59",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 288927199,
+      "lat": 48.1504535,
+      "lon": 17.1173513,
+      "tags": {
+        "amenity": "bar",
+        "name": "Metropol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 288927615,
+      "lat": 48.1538247,
+      "lon": 17.1249742,
+      "tags": {
+        "addr:city": "Bratislava - Staré Mesto",
+        "addr:conscriptionnumber": "4154",
+        "addr:country": "SK",
+        "addr:housenumber": "47",
+        "addr:postcode": "811 07",
+        "addr:street": "Karadžičova",
+        "addr:streetnumber": "47",
+        "addr:suburb": "I",
+        "alt_name": "Zora Pub",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "name": "Piváreň Zora",
+        "opening_hours": "Mo-Sa 10:00-23:00; Su 10:00-22:00",
+        "operator": "GANEA, spol. s r. o.",
+        "outdoor_seating": "yes",
+        "smoking": "yes",
+        "source": "survey",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 289342446,
+      "lat": 48.1572071,
+      "lon": 17.1190660,
+      "tags": {
+        "amenity": "pub",
+        "name": "Urban pub",
+        "opening_hours": "Mo-Th 13:00-01:00; Fr 13:00-03:00; Sa 15:00-03:00; Su 15:00-24:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 289342538,
+      "lat": 48.1562029,
+      "lon": 17.1177484,
+      "tags": {
+        "amenity": "pub",
+        "name": "meetnica",
+        "old_name": "Batida 4",
+        "opening_hours": "Mo-Fr 08:30-22:00; Sa,Su 12:00-22:00",
+        "operator": "artBOX"
+      }
+    },
+    {
+      "type": "node",
+      "id": 290001980,
+      "lat": 48.1266645,
+      "lon": 17.1234999,
+      "tags": {
+        "amenity": "pub",
+        "name": "Piváreň Športka",
+        "opening_hours": "Mo-Sa 08:00-21:30; Su 10:00-21:30",
+        "website": "http://www.pivarensportka.sk/?home"
+      }
+    },
+    {
+      "type": "node",
+      "id": 299456423,
+      "lat": 48.1355911,
+      "lon": 17.1154795,
+      "tags": {
+        "amenity": "pub",
+        "name": "Pod mostom",
+        "old_name": "Bufet pod Starým mostom",
+        "opening_hours": "Mo-Su 09:00-23:00; Fr-Sa 09:00-25:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 306834701,
+      "lat": 48.1248326,
+      "lon": 17.1298960,
+      "tags": {
+        "amenity": "pub",
+        "name": "Fortuna",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 15:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 309598409,
+      "lat": 48.1578395,
+      "lon": 17.0972529,
+      "tags": {
+        "amenity": "pub",
+        "beer_garden": "yes",
+        "brewery": "corgon;budvar",
+        "contact:facebook": "https://sk-sk.facebook.com/pages/FUNUS/28272940115",
+        "name": "Funus",
+        "opening_hours": "10:00-22:00",
+        "outdoor_seating": "yes",
+        "website": "https://krcma-funus.webnode.sk/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 320360815,
+      "lat": 48.1584501,
+      "lon": 17.1172790,
+      "tags": {
+        "amenity": "pub",
+        "beer_garden": "yes",
+        "cuisine": "pizza",
+        "name": "Malý Bajkal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 321359458,
+      "lat": 48.1569545,
+      "lon": 17.1134890,
+      "tags": {
+        "amenity": "pub",
+        "brewery": "Kozel",
+        "contact:facebook": "http://www.facebook.com/pages/Randal-Club-livewild-rocknroll-music-club/58417519720",
+        "contact:website": "http://www.randalclub.eu/sk",
+        "name": "Randál",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 331850617,
+      "lat": 48.1463315,
+      "lon": 17.0991898,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "yes",
+        "name": "Scherz",
+        "opening_hours": "Mo-Fr 07:30-25:00; Sa,Su 15:00-25:00",
+        "website": "http://kafe.scherz.sk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 344449881,
+      "lat": 48.1201294,
+      "lon": 17.1205918,
+      "tags": {
+        "amenity": "pub",
+        "name": "Šenk pub",
+        "opening_hours": "Mo-Fr 10:00-23:00; Sa 10:00-24:00; Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "separated",
+        "website": "https://www.senkpub.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 346667263,
+      "lat": 48.1590046,
+      "lon": 17.1161827,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bastion",
+        "opening_hours": "Mo-Fr 11:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354537098,
+      "lat": 48.1141315,
+      "lon": 17.1235515,
+      "tags": {
+        "amenity": "pub",
+        "name": "Pablo pub",
+        "old_name": "Švejk pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354537283,
+      "lat": 48.1163450,
+      "lon": 17.1217612,
+      "tags": {
+        "amenity": "pub",
+        "name": "Tatran"
+      }
+    },
+    {
+      "type": "node",
+      "id": 358304054,
+      "lat": 48.1577019,
+      "lon": 17.1259657,
+      "tags": {
+        "amenity": "pub",
+        "name": "Pezinský sud"
+      }
+    },
+    {
+      "type": "node",
+      "id": 358309230,
+      "lat": 48.1406752,
+      "lon": 17.1040210,
+      "tags": {
+        "amenity": "pub",
+        "name": "Piváreň Pod mostom",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "PK Inpex"
+      }
+    },
+    {
+      "type": "node",
+      "id": 378357483,
+      "lat": 48.1515534,
+      "lon": 17.1184601,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:street": "Americké námestie",
+        "amenity": "pub",
+        "level": "-1",
+        "name": "Americke pub",
+        "old_name": "Papichulo",
+        "opening_hours": "Mo-Th 00:00-01:00,17:00-24:00; Fr-Su 00:00-03:00,17:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+421 944 118 464",
+        "website": "https://www.facebook.com/americke/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 378376178,
+      "lat": 48.1571116,
+      "lon": 17.1110273,
+      "tags": {
+        "alt_name": "St. Nicolaus",
+        "amenity": "pub",
+        "brewery": "Zubr",
+        "name": "Hostinec Jelenka",
+        "opening_hours": "Mo-Sa 09:00-22:00; Su 11:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 378382007,
+      "lat": 48.1557197,
+      "lon": 17.1076890,
+      "tags": {
+        "amenity": "pub",
+        "name": "Rýchlik",
+        "opening_hours": "Su-Fr 10:00-22:00; Sa 15:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 431763220,
+      "lat": 48.1453053,
+      "lon": 17.1203175,
+      "tags": {
+        "amenity": "pub",
+        "name": "Plznička pub",
+        "old_name": "Krčma u Štricáka",
+        "website": "http://www.plznickapub.wbl.sk",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 432367680,
+      "lat": 48.1480427,
+      "lon": 17.1116830,
+      "tags": {
+        "amenity": "pub",
+        "name": "KGB",
+        "opening_hours": "Mo-Th 11:00-00:00; Fr 11:00-02:00; Sa 16:00-00:00",
+        "smoking": "isolated",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 432376017,
+      "lat": 48.1435637,
+      "lon": 17.1071639,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "361",
+        "addr:country": "SK",
+        "addr:housenumber": "361/4",
+        "addr:street": "Sedlárska",
+        "addr:streetnumber": "4",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "name": "The Dubliner Irish Pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 432522203,
+      "lat": 48.1422374,
+      "lon": 17.1037798,
+      "tags": {
+        "amenity": "pub",
+        "check_date": "2022-09-08",
+        "name": "Drink in Gallery Andy",
+        "opening_hours": "Mo-Th 17:00-24:00; Fr-Sa 17:00-26:00; Su 17:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 432597958,
+      "lat": 48.1421012,
+      "lon": 17.1060919,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "1",
+        "addr:postcode": "811 01",
+        "addr:street": "Ventúrska",
+        "addr:streetnumber": "1",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "nightclub",
+        "bar": "yes",
+        "min_age": "18",
+        "name": "trafo.",
+        "operator": "Medusa Group",
+        "phone": "+421907 704 849",
+        "website": "http://www.trafo.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 432597961,
+      "lat": 48.1426588,
+      "lon": 17.1063575,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "267",
+        "addr:housenumber": "5",
+        "addr:postcode": "811 01",
+        "addr:street": "Ventúrska",
+        "addr:streetnumber": "5",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "pub",
+        "check_date": "2022-09-07",
+        "name": "LOFT 05",
+        "old_name": "Re:fresh"
+      }
+    },
+    {
+      "type": "node",
+      "id": 432598188,
+      "lat": 48.1437705,
+      "lon": 17.1058670,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "1",
+        "addr:postcode": "811 03",
+        "addr:street": "Klariská",
+        "addr:streetnumber": "1",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "pub",
+        "contact:email": "cyril.buda@gmail.com",
+        "contact:facebook": "https://www.facebook.com/pages/MUSIC-GALLERY-u-De%C5%BEm%C3%A1ra/228540683867656?rf=105141146242815",
+        "contact:website": "http://www.musicgallery.sk",
+        "fixme": "overit funkcnost",
+        "name": "U Dežmára",
+        "opening_hours": "Mo-Fr 18:00-04:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 432604312,
+      "lat": 48.1722999,
+      "lon": 17.0742603,
+      "tags": {
+        "amenity": "pub",
+        "name": "U Bila"
+      }
+    },
+    {
+      "type": "node",
+      "id": 442391188,
+      "lat": 48.1527045,
+      "lon": 17.0863227,
+      "tags": {
+        "amenity": "pub",
+        "name": "Chilli Pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 443003733,
+      "lat": 48.1666207,
+      "lon": 17.1383991,
+      "tags": {
+        "amenity": "pub",
+        "name": "Sport pub u belasých",
+        "opening_hours": "Mo 10:30-24:00; Tu-Fr 00:00-01:00,10:30-24:00; Sa 00:00-02:00,10:30-24:00; Su 00:00-02:00,11:00-23:00",
+        "operator": "M-GASTRO, s. r. o.",
+        "smoking": "separated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 452554615,
+      "lat": 48.1464176,
+      "lon": 17.1236919,
+      "tags": {
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "name": "Koník",
+        "opening_hours": "Mo-Fr 12:00-23:00; Sa,Su 17:00-23:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 455587210,
+      "lat": 48.1489811,
+      "lon": 17.0895993,
+      "tags": {
+        "addr:conscriptionnumber": "1713",
+        "addr:housenumber": "1713/75",
+        "addr:street": "Mudroňova",
+        "addr:streetnumber": "75",
+        "amenity": "pub",
+        "name": "U Lenivca",
+        "opening_hours": "Mo-Fr 15:00-22:00; Sa-Su 17:00-22:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 463165510,
+      "lat": 48.1414728,
+      "lon": 17.1067013,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "17",
+        "addr:postcode": "811 02",
+        "addr:street": "Hviezdoslavovo námestie",
+        "addr:streetnumber": "17",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "bar",
+        "check_date": "2022-09-07",
+        "contact:facebook": "https://www.facebook.com/17sbar",
+        "contact:instagram": "https://www.instagram.com/17sbar/",
+        "cuisine": "pizza",
+        "email": "17bar.sk@gmail.com",
+        "name": "17's Bar",
+        "opening_hours": "11:00-24:00",
+        "phone": "+421 908 759 429",
+        "website": "http://www.17bar.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 471963211,
+      "lat": 48.1456363,
+      "lon": 17.1072931,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "6",
+        "addr:street": "Hurbanovo námestie",
+        "addr:streetnumber": "6",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "bar",
+        "name": "Music Bar Priatelia",
+        "website": "http://musicbarpriatelia.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 476574141,
+      "lat": 48.1405122,
+      "lon": 17.1169000,
+      "tags": {
+        "amenity": "pub",
+        "name": "Malý Rím",
+        "opening_hours": "Mo-Fr 09:00-24:00; Sa-Su 11:00-24:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 576735662,
+      "lat": 48.1478786,
+      "lon": 17.1113352,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "528",
+        "addr:country": "SK",
+        "addr:housenumber": "48",
+        "addr:postcode": "811 06",
+        "addr:street": "Obchodná",
+        "addr:streetnumber": "48",
+        "amenity": "nightclub",
+        "name": "Radosť",
+        "website": "http://www.mojaradost.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 687058187,
+      "lat": 48.1644664,
+      "lon": 17.1315382,
+      "tags": {
+        "amenity": "pub",
+        "name": "U Wallnera"
+      }
+    },
+    {
+      "type": "node",
+      "id": 771494990,
+      "lat": 48.1613429,
+      "lon": 17.1475215,
+      "tags": {
+        "amenity": "pub",
+        "name": "Štrkáč Club"
+      }
+    },
+    {
+      "type": "node",
+      "id": 800512878,
+      "lat": 48.1561645,
+      "lon": 17.1298485,
+      "tags": {
+        "amenity": "nightclub",
+        "name": "Royal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 800512879,
+      "lat": 48.1592438,
+      "lon": 17.1311518,
+      "tags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 800512887,
+      "lat": 48.1628467,
+      "lon": 17.1322717,
+      "tags": {
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/pubudoktora",
+        "name": "U doktora",
+        "operator": "Th-Sa 14:00-00:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 824902130,
+      "lat": 48.1246604,
+      "lon": 17.1234634,
+      "tags": {
+        "amenity": "pub",
+        "name": "Starohájska piváreň",
+        "opening_hours": "Mo-Th 11:30-23:00; Fr 11:30-24:00; Sa 12:00-24:00; Su 12:00-23:00",
+        "website": "http://www.starohajskapivaren.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 898023467,
+      "lat": 48.1570426,
+      "lon": 17.1135409,
+      "tags": {
+        "amenity": "pub",
+        "contact:facebook": "http://www.facebook.com/pages/Hopkirk-chillout-culture-bar/173227636134248",
+        "contact:website": "http://hopkirk.sk/",
+        "layer": "1",
+        "name": "Hopkirk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 899531928,
+      "lat": 48.1575286,
+      "lon": 17.0444228,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "13",
+        "addr:street": "Majerníkova",
+        "addr:streetnumber": "13",
+        "amenity": "pub",
+        "name": "Konečná",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "website": "http://www.kamnapivo.sk/pivodb/karlovaves/4813/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 899534296,
+      "lat": 48.1527991,
+      "lon": 17.0522018,
+      "tags": {
+        "amenity": "pub",
+        "name": "Maják"
+      }
+    },
+    {
+      "type": "node",
+      "id": 916328390,
+      "lat": 48.1300666,
+      "lon": 17.1359000,
+      "tags": {
+        "amenity": "pub",
+        "brewery": "Stupavar",
+        "drink:kofola": "draught",
+        "name": "Weranda",
+        "opening_hours": "Mo-Fr 14:00-21:00; Sa-Su 10:00-21:00",
+        "website": "https://www.facebook.com/WerandaPunkRockBufet/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 964713314,
+      "lat": 48.1885431,
+      "lon": 17.1342429,
+      "tags": {
+        "amenity": "bar",
+        "name": "Nino Bar",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 985996094,
+      "lat": 48.1415059,
+      "lon": 17.1166921,
+      "tags": {
+        "addr:city": "Bratislava - Staré mesto",
+        "addr:housenumber": "4",
+        "addr:postcode": "811 02",
+        "addr:street": "Šafárikovo námestie",
+        "amenity": "bar",
+        "email": "rockok@rockok.sk",
+        "level": "-1",
+        "name": "ROCK OK",
+        "opening_hours": "Mo-Th 18:00-25:00, Fr 18:00-28:00, Sa 18:00-28:00, Su 18:00-25:00",
+        "phone": "+421 917 ROCKOK (after 18:00)",
+        "smoking": "yes",
+        "toilets:wheelchair": "no",
+        "website": "http://www.rockok.sk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 985996105,
+      "lat": 48.1414483,
+      "lon": 17.1150128,
+      "tags": {
+        "amenity": "pub",
+        "name": "Ponorka",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa 15:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 985996110,
+      "lat": 48.1415975,
+      "lon": 17.1131225,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "1",
+        "addr:postcode": "811 02",
+        "addr:street": "Tobrucká",
+        "amenity": "pub",
+        "brewery": "yes;pilsner_urquell",
+        "name": "Za rohom by Bombovar",
+        "opening_hours": "Mo-Fr 14:00-24:00; Sa,Su 00:00-02:00,14:00-24:00",
+        "operator": "Bombovar s.r.o.",
+        "website": "https://www.facebook.com/Za-rohom-by-Bombovar-122219786698366"
+      }
+    },
+    {
+      "type": "node",
+      "id": 987845190,
+      "lat": 48.1405337,
+      "lon": 17.1228950,
+      "tags": {
+        "amenity": "bar",
+        "name": "Amber's bar",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1023510645,
+      "lat": 48.1273015,
+      "lon": 17.1249482,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hardy Pub",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "smoking": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1023510675,
+      "lat": 48.1285482,
+      "lon": 17.1266538,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "U Magistra",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "smoking": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1023629753,
+      "lat": 48.1582845,
+      "lon": 17.0673514,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "Sole Grill",
+        "opening_hours": "Mo-Su 08:00-01:30",
+        "outdoor_seating": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "phone": "+421 903 618 311",
+        "smoking": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1104420889,
+      "lat": 48.1569556,
+      "lon": 17.1137148,
+      "tags": {
+        "alt_name": "Majestic Music Club",
+        "amenity": "nightclub",
+        "contact:facebook": "http://www.facebook.com/groups/276229510417/",
+        "contact:website": "http://www.majestic.sk/sk",
+        "name": "MMC",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1132323094,
+      "lat": 48.1500062,
+      "lon": 17.0487986,
+      "tags": {
+        "amenity": "pub",
+        "name": "Budejovická piváreň",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1171158639,
+      "lat": 48.1521655,
+      "lon": 17.0492954,
+      "tags": {
+        "amenity": "pub",
+        "name": "Long Pub",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Sa 12:00-24:00",
+        "phone": "+421 26 544 4177",
+        "website": "http://www.kamnapivo.sk/pivodb/karlovaves/3708/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1185992373,
+      "lat": 48.1547944,
+      "lon": 17.1188324,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "2779",
+        "addr:country": "SK",
+        "addr:floor": "-1",
+        "addr:housenumber": "2779/39",
+        "addr:postcode": "811 07",
+        "addr:street": "Radlinského",
+        "addr:streetnumber": "39",
+        "amenity": "pub",
+        "beer_garden": "yes",
+        "brewery": "Pilsner Urquell;Kozel;Birrel;Šariš tmavý;Master",
+        "name": "Česká pivnica",
+        "opening_hours": "Mo-Fr 11:00-23:00; Sa, Su 12:00-23:00",
+        "phone": "+421 911 844 599",
+        "website": "https://www.ceskapivnica.sk",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1238505989,
+      "lat": 48.1548579,
+      "lon": 17.0498979,
+      "tags": {
+        "addr:housenumber": "9A",
+        "addr:postcode": "841 05",
+        "addr:street": "Ľudovíta Fullu",
+        "addr:streetnumber": "9A",
+        "amenity": "bar",
+        "name": "Best Bar",
+        "source": "personal visit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1270110517,
+      "lat": 48.1478891,
+      "lon": 17.0698863,
+      "tags": {
+        "amenity": "bar",
+        "name": "Havana club",
+        "opening_hours": "12:00-25:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1297064987,
+      "lat": 48.1479848,
+      "lon": 17.1065427,
+      "tags": {
+        "addr:city": "Bratislava - Staré Mesto",
+        "addr:postcode": "811 06",
+        "addr:street": "Panenská",
+        "amenity": "pub",
+        "internet_access": "no",
+        "name": "Mr. President Pub",
+        "opening_hours": "Mo-Fr 07:00-24:00",
+        "smoking": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1297627202,
+      "lat": 48.1499055,
+      "lon": 17.1116750,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "18",
+        "addr:postcode": "811 03",
+        "addr:street": "Námestie 1. mája",
+        "addr:streetnumber": "18",
+        "amenity": "pub",
+        "level": "0",
+        "name": "Skupinová Terapia"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1297627203,
+      "lat": 48.1496973,
+      "lon": 17.1106692,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "14",
+        "addr:postcode": "811 06",
+        "addr:street": "Námestie 1. mája",
+        "addr:streetnumber": "14",
+        "amenity": "bar",
+        "name": "British Rock Stars",
+        "opening_hours": "Mo-We 10:00-24:00; Th 10:00-26:00, Fr 10:00-28:00, Sa 16:00-28:00, Su 16:00-24:00",
+        "website": "https://www.britishrockstars.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1298209921,
+      "lat": 48.1698770,
+      "lon": 17.1303815,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "4",
+        "addr:postcode": "831 03",
+        "addr:street": "Hálkova",
+        "addr:streetnumber": "4",
+        "amenity": "bar",
+        "name": "Reset Club"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470664256,
+      "lat": 48.1461991,
+      "lon": 17.1114033,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "2138",
+        "addr:country": "SK",
+        "addr:housenumber": "2138/1",
+        "addr:postcode": "811 08",
+        "addr:street": "Heydukova",
+        "addr:streetnumber": "1",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Storm game bar",
+        "opening_hours": "Mo-Th 00:00-01:00,10:00-24:00; Fr 00:00-02:00,10:00-24:00; Sa,Su 00:00-03:00,10:00-24:00",
+        "operator": "Fantastik s.r.o.",
+        "website": "http://stormbar.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470667478,
+      "lat": 48.1422685,
+      "lon": 17.1038721,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "286",
+        "addr:country": "SK",
+        "addr:housenumber": "286/2",
+        "addr:street": "Beblavého",
+        "addr:streetnumber": "2",
+        "amenity": "bar",
+        "name": "U čerta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470667644,
+      "lat": 48.1472549,
+      "lon": 17.1213240,
+      "tags": {
+        "amenity": "pub",
+        "leisure": "adult_gaming_centre",
+        "name": "Bingo poker club"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470667800,
+      "lat": 48.1476630,
+      "lon": 17.1108666,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "521",
+        "addr:country": "SK",
+        "addr:housenumber": "521/36",
+        "addr:postcode": "811 06",
+        "addr:street": "Obchodná",
+        "addr:streetnumber": "36",
+        "amenity": "pub",
+        "fixme": "overit, ma divne cislo domu",
+        "name": "Caiman pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470669487,
+      "lat": 48.1446627,
+      "lon": 17.1015992,
+      "tags": {
+        "amenity": "pub",
+        "name": "Business Pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470669492,
+      "lat": 48.1442661,
+      "lon": 17.1048166,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "1",
+        "addr:postcode": "811 01",
+        "addr:street": "Na vŕšku",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "bar",
+        "cuisine": "regional",
+        "name": "Uisce Beatha",
+        "opening_hours": "Mo-Su 14:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470672001,
+      "lat": 48.1426600,
+      "lon": 17.1066122,
+      "tags": {
+        "amenity": "pub",
+        "check_date": "2022-09-07",
+        "name": "Fach"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470672002,
+      "lat": 48.1427265,
+      "lon": 17.1061724,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:postcode": "811 01",
+        "addr:street": "Ventúrska",
+        "amenity": "pub",
+        "email": "info@sladovna.info",
+        "name": "Sladovňa",
+        "phone": "+421 2 2079 1738",
+        "website": "http://www.sladovna.info"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470672005,
+      "lat": 48.1430203,
+      "lon": 17.1065877,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "14",
+        "addr:postcode": "811 01",
+        "addr:street": "Ventúrska",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "bar",
+        "check_date": "2022-09-07",
+        "name": "antinori",
+        "opening_hours": "Mo-Su 16:30-26:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470672008,
+      "lat": 48.1431743,
+      "lon": 17.1066003,
+      "tags": {
+        "amenity": "bar",
+        "min_age": "18",
+        "name": "Masquerade",
+        "opening_hours": "Mo-Th 00:00-01:00,11:00-24:00; Fr-Su 00:00-05:00,11:00-24:00",
+        "operator": "Lavos",
+        "smoking": "isolated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470681218,
+      "lat": 48.1458130,
+      "lon": 17.1083989,
+      "tags": {
+        "amenity": "bar",
+        "name": "GOOD LIFE",
+        "old_name": "Cocoloco;Havana Club",
+        "opening_hours": "Tu-Th 20:00-03:00, Fr,Sa 20:00-05:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470683889,
+      "lat": 48.1430240,
+      "lon": 17.1070291,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "255",
+        "addr:country": "SK",
+        "addr:housenumber": "255/8",
+        "addr:street": "Zelená",
+        "addr:streetnumber": "8",
+        "amenity": "bar",
+        "name": "Karaoke Coctail Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470683895,
+      "lat": 48.1432886,
+      "lon": 17.1085829,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "3",
+        "addr:postcode": "811 01",
+        "addr:street": "Hlavné námestie",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2022-09-07",
+        "drink:wine": "yes",
+        "name": "Wine not!?",
+        "opening_hours": "Su-Th 09:00-24:00; Fr-Sa 09:00-02:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1474224986,
+      "lat": 48.1558052,
+      "lon": 17.1116827,
+      "tags": {
+        "amenity": "pub",
+        "name": "Drevená dedina"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1485871153,
+      "lat": 48.1450539,
+      "lon": 17.1178197,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "811 09",
+        "addr:street": "Klemensova",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/montecristobarbistro/",
+        "cuisine": "breakfast;cake;chicken;coffee_shop;italian;local;pasta",
+        "email": "mail@montecristogroup.eu",
+        "internet_access": "wlan",
+        "name": "Monte Cristo Bar & Bistro",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 10:00-21:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1518730825,
+      "lat": 48.1553943,
+      "lon": 17.1196368,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "2736",
+        "addr:country": "SK",
+        "addr:housenumber": "2736/1",
+        "addr:street": "Wilsonova",
+        "addr:streetnumber": "1",
+        "amenity": "pub",
+        "disused:name": "Limbašská reštaurácia",
+        "name": "U Hasiča",
+        "opening_hours": "\"covid\"",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1524398239,
+      "lat": 48.1787042,
+      "lon": 17.1287490,
+      "tags": {
+        "amenity": "pub",
+        "name": "Garda pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1572086713,
+      "lat": 48.1494583,
+      "lon": 17.1140819,
+      "tags": {
+        "amenity": "pub",
+        "check_date": "2022-09-07",
+        "microbrewery": "yes",
+        "name": "Alžbetka",
+        "official_name": "Mestský Pivovar Alžbetka",
+        "opening_hours": "Mo,Tu 10:00-24:00; We-Fr 00:00-01:00,10:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "operator": "Quintela Gastro",
+        "outdoor_seating": "yes",
+        "start_date": "2017",
+        "website": "http://www.pivovaralzbetka.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1687407506,
+      "lat": 48.1555415,
+      "lon": 17.1411649,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "name": "U Maškrtného kocúra"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1687407507,
+      "lat": 48.1537273,
+      "lon": 17.1374800,
+      "tags": {
+        "amenity": "pub",
+        "name": "Viecha u sv. Urbana"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1702971404,
+      "lat": 48.1741486,
+      "lon": 17.1277382,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "name": "Novopacká piváreň",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "operator": "Rančík, s.r.o.",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1713355623,
+      "lat": 48.1463143,
+      "lon": 17.1604370,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bakkus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1718379178,
+      "lat": 48.1450098,
+      "lon": 17.1599556,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bizon",
+        "opening_hours": "Mo-Th 09:00-23:00; Fr 09:00-24:00; Sa 11:00-24:00; Su 11:00-22:00",
+        "website": "http://www.bizon-pub.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1720377318,
+      "lat": 48.1451960,
+      "lon": 17.1099791,
+      "tags": {
+        "addr:street": "Nedbalova",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/kcDunaj",
+        "contact:phone": "+421 904 330 049",
+        "contact:twitter": "https://twitter.com/KCDunaj",
+        "contact:website": "http://www.kcdunaj.sk/",
+        "name": "KC Dunaj",
+        "opening_hours": "Mo-We 12:00-24:00, Th-Sa 16:00-26:00, Su 16:00-24:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1759814142,
+      "lat": 48.1729674,
+      "lon": 17.0503060,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "4",
+        "addr:street": "M. Schneidra Trnavského",
+        "addr:streetnumber": "4",
+        "amenity": "pub",
+        "name": "Rock Cafe",
+        "website": "http://www.rockcafe.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1760070523,
+      "lat": 48.1556666,
+      "lon": 17.1597231,
+      "tags": {
+        "amenity": "pub",
+        "name": "Inka pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1767713169,
+      "lat": 48.1675918,
+      "lon": 17.1487293,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bistro Pinball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1770679270,
+      "lat": 48.1590468,
+      "lon": 17.1466536,
+      "tags": {
+        "amenity": "pub",
+        "name": "Terasa Junior",
+        "old_name": "Ozy Grill",
+        "opening_hours": "Mo-Fr 15:00-22:00; Sa,Su 12:00-22:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1777262095,
+      "lat": 48.1744415,
+      "lon": 17.1303648,
+      "tags": {
+        "amenity": "pub",
+        "name": "Granit",
+        "source:amenity": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1779730431,
+      "lat": 48.1486067,
+      "lon": 17.1452258,
+      "tags": {
+        "amenity": "pub",
+        "name": "Black Panther"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1781350236,
+      "lat": 48.1593951,
+      "lon": 17.1192608,
+      "tags": {
+        "amenity": "pub",
+        "beer_garden": "yes",
+        "name": "Koliesko"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1783975918,
+      "lat": 48.1500829,
+      "lon": 17.1227114,
+      "tags": {
+        "addr:conscriptionnumber": "2652",
+        "addr:housenumber": "2652/16",
+        "addr:street": "Moskovská",
+        "addr:streetnumber": "16",
+        "amenity": "pub",
+        "brewery": "Jakub",
+        "microbrewery": "yes",
+        "name": "Hostinec Richtár Jakub",
+        "opening_hours": "Mo-Sa 16:00-22:00",
+        "smoking": "isolated",
+        "website": "http://www.richtarjakub.sk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1785626510,
+      "lat": 48.1271915,
+      "lon": 17.1023008,
+      "tags": {
+        "amenity": "pub",
+        "name": "Krčma U Kotelníka",
+        "old_name": "Krčma Kotolňa",
+        "opening_hours": "Mo-Sa 16:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1788769234,
+      "lat": 48.1353869,
+      "lon": 17.1234440,
+      "tags": {
+        "amenity": "pub",
+        "name": "Občerstvenie Lido"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1846101632,
+      "lat": 48.1284788,
+      "lon": 17.1115272,
+      "tags": {
+        "amenity": "pub",
+        "name": "Kráľovská piváreň"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1846101637,
+      "lat": 48.1284574,
+      "lon": 17.1123423,
+      "tags": {
+        "amenity": "pub",
+        "level": "0",
+        "name": "Déja vu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1853547223,
+      "lat": 48.1592829,
+      "lon": 17.1553695,
+      "tags": {
+        "amenity": "pub",
+        "name": "Pub u Adama",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1860870816,
+      "lat": 48.1247183,
+      "lon": 17.1078393,
+      "tags": {
+        "amenity": "pub",
+        "name": "Golf club",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1863655107,
+      "lat": 48.1470897,
+      "lon": 17.1638780,
+      "tags": {
+        "amenity": "pub",
+        "email": "gurmanskydvor@gmail.com",
+        "name": "Gurmánsky dvor U Oravca",
+        "opening_hours": "Mo-We 10:30-14:30; Th 10:30-22:00; Fr 10:30-14:30; Sa 11:00-15:00; Sa off",
+        "phone": "+421 917 521 274",
+        "website": "http://www.facebook.com/gurmanskydvor/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1887086113,
+      "lat": 48.1270113,
+      "lon": 17.0931668,
+      "tags": {
+        "amenity": "pub",
+        "name": "Šport bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1902900864,
+      "lat": 48.1478872,
+      "lon": 17.1749765,
+      "tags": {
+        "amenity": "pub",
+        "name": "Minipresso",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 07:00-22:00",
+        "operator": "Viktor Repka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1916696816,
+      "lat": 48.1465391,
+      "lon": 17.1101761,
+      "tags": {
+        "amenity": "bar",
+        "name": "Shisha Lounge Bratislava",
+        "website": "http://www.shisha-lounge.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1923942789,
+      "lat": 48.1576906,
+      "lon": 17.1217421,
+      "tags": {
+        "amenity": "pub",
+        "name": "Hostinec U poštárov"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1941778829,
+      "lat": 48.1289462,
+      "lon": 17.1734313,
+      "tags": {
+        "amenity": "pub",
+        "name": "Espresso Jakša",
+        "opening_hours": "Mo-Fr 05:15-19:00, Sa,Su 05:15-13:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1941778832,
+      "lat": 48.1289623,
+      "lon": 17.1737948,
+      "tags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1944202791,
+      "lat": 48.1718018,
+      "lon": 17.1458713,
+      "tags": {
+        "amenity": "pub",
+        "name": "Loko bufet",
+        "opening_hours": "Mo-Fr 06:00-21:00; Sa-Su 07:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1951098622,
+      "lat": 48.1472716,
+      "lon": 17.1107636,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "level": "1",
+        "name": "Štartér",
+        "old_name": "Valhalla",
+        "opening_hours": "Mo-Fr 13:00-24:00; Sa 00:00-02:00,15:00-24:00; Su 00:00-02:00",
+        "website": "http://www.starterpub.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1953366496,
+      "lat": 48.1724390,
+      "lon": 17.1360225,
+      "tags": {
+        "amenity": "pub",
+        "name": "Beata Haberlová HOSTINEC FURMANSKÁ KRČMA",
+        "phone": "+421 24 425 0301"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1957347749,
+      "lat": 48.1450957,
+      "lon": 17.1068843,
+      "tags": {
+        "addr:conscriptionnumber": "390",
+        "addr:country": "SK",
+        "addr:housenumber": "390/22",
+        "addr:street": "Michalská",
+        "addr:streetnumber": "22",
+        "amenity": "pub",
+        "brewery": "Pilsner Urquell",
+        "check_date": "2022-09-07",
+        "name": "Zbrojnoš",
+        "opening_hours": "Mo-We 13:00-02:00, Th-Fr 13:00-04:00, Sa 15:00-04:00, Su 15:00-00:00",
+        "website": "http://zbrojnos.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1958830792,
+      "lat": 48.1442346,
+      "lon": 17.1073151,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "421",
+        "addr:country": "SK",
+        "addr:housenumber": "421/3",
+        "addr:street": "Biela",
+        "addr:streetnumber": "3",
+        "amenity": "pub",
+        "check_date": "2022-09-08",
+        "name": "FACTORY",
+        "old_name": "WOLKER",
+        "opening_hours": "Mo-Fr 11:00-22:00; Sa 15:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1958842247,
+      "lat": 48.1441682,
+      "lon": 17.1073185,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "382",
+        "addr:country": "SK",
+        "addr:housenumber": "382/4",
+        "addr:postcode": "811 01",
+        "addr:street": "Biela",
+        "addr:streetnumber": "4",
+        "amenity": "bar",
+        "check_date": "2022-09-08",
+        "cuisine": "regional",
+        "name": "Meanto",
+        "old_name": "4 YOU"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1960954914,
+      "lat": 48.1437759,
+      "lon": 17.1069292,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "366",
+        "addr:country": "SK",
+        "addr:housenumber": "366/1",
+        "addr:street": "Sedlárska",
+        "addr:streetnumber": "1",
+        "amenity": "pub",
+        "check_date": "2022-09-07",
+        "name": "BARROCK",
+        "opening_hours": "Tu-Sa 17:00-01:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1961274831,
+      "lat": 48.1429753,
+      "lon": 17.1085269,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2022-09-07",
+        "name": "Antique",
+        "old_name": "Antik cafe",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1968347378,
+      "lat": 48.1482101,
+      "lon": 17.1148084,
+      "tags": {
+        "amenity": "bar",
+        "name": "The Peach",
+        "old_name": "Caffe Mariánska",
+        "opening_hours": "Mo-Fr 16:00-24:00; Sa 18:00-24:00; Su off",
+        "phone": "+421 907 889 717"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1968347379,
+      "lat": 48.1472942,
+      "lon": 17.1146533,
+      "tags": {
+        "amenity": "bar",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Deja-vu",
+        "opening_hours": "Mo-Fr 11:00-23:00",
+        "smoking": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1968347381,
+      "lat": 48.1471195,
+      "lon": 17.1149657,
+      "tags": {
+        "amenity": "pub",
+        "check_date": "2022-09-07",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "no",
+        "name": "Novopacká piváreň",
+        "opening_hours": "Mo-Sa 09:00-02:00",
+        "smoking": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1968347384,
+      "lat": 48.1479229,
+      "lon": 17.1166570,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bratislavská kozlovna",
+        "old_name": "U dvoch levov",
+        "opening_hours": "Mo-Sa 10:00-22:00",
+        "smoking": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1971461023,
+      "lat": 48.1696792,
+      "lon": 17.1382461,
+      "tags": {
+        "amenity": "pub",
+        "name": "Espresso Gól"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1987672194,
+      "lat": 48.1468371,
+      "lon": 17.1107695,
+      "tags": {
+        "amenity": "bar",
+        "name": "Viecha pod Brezou",
+        "note": "Víno, Pivo, Nealko, Burčák",
+        "opening_hours": "Mo-Fr 13:30-22:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1999642278,
+      "lat": 48.1665080,
+      "lon": 17.1383185,
+      "tags": {
+        "amenity": "pub",
+        "name": "Neptún Café",
+        "opening_hours": "Mo-Su 00:00-04:00,07:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2021289286,
+      "lat": 48.1569017,
+      "lon": 17.1135469,
+      "tags": {
+        "amenity": "pub",
+        "name": "Kobra"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2021289287,
+      "lat": 48.1568278,
+      "lon": 17.1136549,
+      "tags": {
+        "amenity": "pub",
+        "name": "Pirát",
+        "phone": "+421908066764",
+        "website": "http://www.piratbar.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2029735813,
+      "lat": 48.1458024,
+      "lon": 17.0696190,
+      "tags": {
+        "amenity": "pub",
+        "brewery": "yes",
+        "internet_access": "no",
+        "name": "Klub Mark Twain",
+        "smoking": "outside",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g274924-d4065635-Reviews-Klub_Mark_Twain-Bratislava_Bratislava_Region.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2046678629,
+      "lat": 48.1495660,
+      "lon": 17.1116639,
+      "tags": {
+        "amenity": "bar",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Kop Saloon",
+        "opening_hours": "Mo-Fr 09:00-22:00; Sa,Su 13:00-22:00",
+        "phone": "+421252025030",
+        "shop": "beverages",
+        "smoking": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2048756129,
+      "lat": 48.1827765,
+      "lon": 17.1340800,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bistro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2056023644,
+      "lat": 48.1432618,
+      "lon": 17.1059984,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "4",
+        "addr:postcode": "811 01",
+        "addr:street": "Prepoštská",
+        "alt_name": "Studňa - umelecký klub, craft beer a borovička bar",
+        "amenity": "pub",
+        "brewery": "čierny_kameň",
+        "contact:facebook": "https://www.facebook.com/pages/Stupavar-Beer-Pub/785762174801107",
+        "name": "Studňa",
+        "opening_hours": "Mo-We 17:00-22:00; Th-Sa 17:00-25:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2062384134,
+      "lat": 48.1307722,
+      "lon": 17.1807491,
+      "tags": {
+        "amenity": "nightclub",
+        "name": "Baracuda disco bar",
+        "opening_hours": "Mo-Su 18:00-01:00",
+        "website": "http://www.baracuda.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2109835021,
+      "lat": 48.1475834,
+      "lon": 17.1085513,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:postcode": "811 06",
+        "amenity": "nightclub",
+        "name": "The Plaza Club Bratislava"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2116209899,
+      "lat": 48.1603377,
+      "lon": 17.1442991,
+      "tags": {
+        "amenity": "bar",
+        "name": "Vinoteka Dve Deci",
+        "opening_hours": "Mo-Fr 15:00-22:00; Sa 18:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2119522947,
+      "lat": 48.1865144,
+      "lon": 17.1366842,
+      "tags": {
+        "amenity": "pub",
+        "beer_garden": "yes",
+        "name": "Black Hill"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2121067635,
+      "lat": 48.1865356,
+      "lon": 17.1367940,
+      "tags": {
+        "access": "private",
+        "amenity": "bar",
+        "name": "D klub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2157296984,
+      "lat": 48.1488900,
+      "lon": 17.1110500,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:postcode": "811 03",
+        "addr:street": "Vysoká",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/gozocafe",
+        "name": "Gozo bar",
+        "opening_hours": "Mo-We 16:00-26:00, Fr 16:00-24:00; Sa 18:00-27:00, Su 18:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2258602203,
+      "lat": 48.1586894,
+      "lon": 17.1396671,
+      "tags": {
+        "addr:street": "Bajzova",
+        "amenity": "pub",
+        "name": "Barclub 13"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2278724214,
+      "lat": 48.1608156,
+      "lon": 17.0654538,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "no",
+        "name": "Kotolňa",
+        "source": "student knowledge",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2342574560,
+      "lat": 48.1405310,
+      "lon": 17.1059931,
+      "tags": {
+        "amenity": "nightclub",
+        "name": "The Club",
+        "website": "http://www.theclubbratislava.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2353237847,
+      "lat": 48.1562071,
+      "lon": 17.1646538,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bistro u Zitky",
+        "old_name": "Bistro Ružinov",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2353237848,
+      "lat": 48.1561973,
+      "lon": 17.1644725,
+      "tags": {
+        "amenity": "pub",
+        "name": "Pat a Mat pub",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2361884310,
+      "lat": 48.1616236,
+      "lon": 17.1336791,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bufet Na kurtoch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2375926162,
+      "lat": 48.1049291,
+      "lon": 17.1052369,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "3059",
+        "addr:country": "SK",
+        "addr:housenumber": "3059/11",
+        "addr:postcode": "851 05",
+        "addr:street": "Strečnianska",
+        "addr:streetnumber": "11",
+        "addr:suburb": "Petržalka",
+        "amenity": "pub",
+        "level": "0",
+        "name": "Espresso Clip",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2378444895,
+      "lat": 48.1024382,
+      "lon": 17.1061373,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "3023",
+        "addr:country": "SK",
+        "addr:housenumber": "13",
+        "addr:postcode": "851 06",
+        "addr:street": "Znievska",
+        "addr:streetnumber": "13",
+        "addr:suburb": "Petržalka",
+        "amenity": "pub",
+        "disused:amenity": "restaurant",
+        "level": "1",
+        "name": "Bohemka",
+        "old_name": "Godzilla",
+        "opening_hours": "Mo-Fr 10:00-21:30; Sa,Su 15:00-21:30",
+        "smoking": "isolated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2439387537,
+      "lat": 48.1544173,
+      "lon": 17.1356468,
+      "tags": {
+        "amenity": "pub",
+        "name": "D'Oro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2440590179,
+      "lat": 48.1540508,
+      "lon": 17.1263417,
+      "tags": {
+        "amenity": "pub",
+        "name": "Pub u Advokáta",
+        "opening_hours": "Mo-Fr 10:00-16:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2486186662,
+      "lat": 48.1489669,
+      "lon": 17.1106110,
+      "tags": {
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/mesugebeer",
+        "name": "Mešuge",
+        "old_name": "Starosloviensky pivovar",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "outdoor_seating": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2507266524,
+      "lat": 48.1424033,
+      "lon": 17.1170193,
+      "tags": {
+        "amenity": "bar",
+        "name": "Môj bar",
+        "opening_hours": "Mo 08:30-17:30; Tu-Fr 08:30-22:00",
+        "website": "http://www.mojbar.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2524619693,
+      "lat": 48.1519774,
+      "lon": 17.0604779,
+      "tags": {
+        "amenity": "pub",
+        "name": "At Espresso"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2532570677,
+      "lat": 48.1648635,
+      "lon": 17.1505926,
+      "tags": {
+        "amenity": "pub",
+        "name": "La Putika"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2578585426,
+      "lat": 48.1496516,
+      "lon": 17.1107261,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "14",
+        "addr:postcode": "811 06",
+        "addr:street": "Námestie 1. mája",
+        "amenity": "pub",
+        "contact:email": "british.rs@gmail.com",
+        "contact:facebook": "https://www.facebook.com/britishrockstars",
+        "contact:website": "http://www.britishrockstars.sk/",
+        "name": "British Rock Stars",
+        "opening_hours": "Mo-We 10:00-01:00; Th-Fr 10:00-04:00; Sa 16:00-04:00; Su 10:00-01:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2614558569,
+      "lat": 48.1275829,
+      "lon": 17.1212329,
+      "tags": {
+        "amenity": "pub",
+        "name": "Pub \"21\"",
+        "opening_hours": "Mo-Fr 15:00-22:00; Sa-Su 17:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2617511401,
+      "lat": 48.1200711,
+      "lon": 17.1068884,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bistro Cuba",
+        "opening_hours": "Mo-Su 18:00-23:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2638971034,
+      "lat": 48.1462498,
+      "lon": 17.1841706,
+      "tags": {
+        "amenity": "pub",
+        "name": "Slezák Rock Pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2660330433,
+      "lat": 48.1603693,
+      "lon": 17.1207379,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "14",
+        "addr:postcode": "831 02",
+        "addr:street": "Jozefa Cígera Hronského",
+        "addr:streetnumber": "14",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "name": "Espresso Max",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2673522819,
+      "lat": 48.1669645,
+      "lon": 17.1731013,
+      "tags": {
+        "amenity": "pub",
+        "name": "Prima Pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2680172675,
+      "lat": 48.1521196,
+      "lon": 17.1795045,
+      "tags": {
+        "amenity": "pub",
+        "name": "Espresso Densi",
+        "opening_hours": "Mo-Sa 10:00-23:00; Su 12:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2693370358,
+      "lat": 48.1444153,
+      "lon": 17.1108042,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bistro Vanesa",
+        "opening_hours": "Mo-Th 00:00-01:00,08:00-24:00; Fr 00:00-04:00,08:00-24:00; Sa,Su 00:00-04:00,10:00-24:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2704623865,
+      "lat": 48.1722390,
+      "lon": 17.1716458,
+      "tags": {
+        "amenity": "pub",
+        "name": "Terasa Plus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2711383454,
+      "lat": 48.1424293,
+      "lon": 17.1071996,
+      "tags": {
+        "amenity": "bar",
+        "name": "ICEBAR",
+        "old_name": "minus 7 bar",
+        "opening_hours": "Mo 16:00-24:00; Tu-Th 00:00-01:00,16:00-24:00; Fr 00:00-01:00,12:00-24:00; Sa 00:00-02:00,12:00-24:00; Su 00:00-02:00,12:00-23:00",
+        "source": "survey",
+        "website": "https://www.icebar.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2712301911,
+      "lat": 48.1493216,
+      "lon": 17.1326033,
+      "tags": {
+        "amenity": "bar",
+        "name": "Morgan Café",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-22:00; PH closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2724809908,
+      "lat": 48.1544201,
+      "lon": 17.1329212,
+      "tags": {
+        "amenity": "pub",
+        "name": "Hostinec U Justína",
+        "opening_hours": "Mo-Su 10:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2756918260,
+      "lat": 48.1677509,
+      "lon": 17.1634962,
+      "tags": {
+        "amenity": "pub",
+        "name": "Terasa",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2775903147,
+      "lat": 48.1552531,
+      "lon": 17.1190176,
+      "tags": {
+        "amenity": "bar",
+        "name": "Old Town",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 13:00-24:00; Su 13:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2784433766,
+      "lat": 48.1215454,
+      "lon": 17.1312530,
+      "tags": {
+        "amenity": "pub",
+        "name": "Nová Alpinka",
+        "old_name": "Alpinka",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2801839683,
+      "lat": 48.1567920,
+      "lon": 17.1356745,
+      "tags": {
+        "amenity": "bar",
+        "name": "In Vino",
+        "opening_hours": "Tu-Sa 15:00-22:00",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2865336939,
+      "lat": 48.1590067,
+      "lon": 17.1548087,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bufet u Doda",
+        "old_name": "Bufet Pohoda",
+        "opening_hours": "Mo-Th 06:30-19:30; Fr-Sa 06:30-22:00; Su 06:30-19:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2892164284,
+      "lat": 48.1110922,
+      "lon": 17.1038015,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "3821",
+        "addr:country": "SK",
+        "addr:housenumber": "3821/5",
+        "addr:postcode": "851 02",
+        "addr:street": "Pajštúnska",
+        "addr:streetnumber": "5",
+        "addr:suburb": "Petržalka",
+        "amenity": "pub",
+        "level": "0",
+        "name": "Sky pub",
+        "opening_hours": "Mo-Fr 08:00-23:00; Sa 11:00-23:00; Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "source": "survey",
+        "start_date": "2013",
+        "website": "http://www.skypub.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2916166063,
+      "lat": 48.1515372,
+      "lon": 17.0609140,
+      "tags": {
+        "amenity": "pub",
+        "cuisine": "burger;regional;grill",
+        "name": "Karloveská Klubovňa",
+        "opening_hours": "Mo-Su 11:00-22:00; Fr,Sa 11:00-24:00",
+        "website": "https://www.nasaklubovna.sk/sk/klubovna/karloveska/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2926580708,
+      "lat": 48.1600979,
+      "lon": 17.1669360,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:postcode": "821 02",
+        "addr:street": "Jadrová",
+        "addr:streetnumber": "4",
+        "amenity": "pub",
+        "email": "caffebarbosorka@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "caffe bar Bosorka",
+        "old_name": "Pod Oknom",
+        "opening_hours": "Mo-Su 15:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2971157503,
+      "lat": 48.1371742,
+      "lon": 17.1143740,
+      "tags": {
+        "amenity": "bar",
+        "name": "SunDeck"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2989676100,
+      "lat": 48.1544635,
+      "lon": 17.1059556,
+      "tags": {
+        "amenity": "nightclub",
+        "contact:facebook": "https://www.facebook.com/kulturakklub/",
+        "level": "-1",
+        "name": "Kulturák klub",
+        "source": "survey",
+        "website": "http://kulturakklub.sk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3116424703,
+      "lat": 48.1488516,
+      "lon": 17.1108746,
+      "tags": {
+        "addr:city": "Bratislava",
+        "amenity": "nightclub",
+        "email": "gayclub@gayclub.sk",
+        "name": "Be happy club",
+        "opening_hours": "24/7",
+        "website": "http://www.gayclub.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3116428516,
+      "lat": 48.1409544,
+      "lon": 17.1172652,
+      "tags": {
+        "amenity": "nightclub",
+        "name": "Kumelka",
+        "opening_hours": "Mo 15:00-24:00; Tu-Sa 00:00-01:00,15:00-24:00; Su 00:00-01:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3116428517,
+      "lat": 48.1410395,
+      "lon": 17.1172646,
+      "tags": {
+        "amenity": "pub",
+        "level": "0",
+        "name": "Pumelka",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr 10:00-01:00; Sa 11:00-01:00; Su 11:00-24:00",
+        "website": "http://www.umelka.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3116440448,
+      "lat": 48.1476013,
+      "lon": 17.1154718,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2022-09-07",
+        "name": "Alligator Crystal",
+        "opening_hours": "We 18:00-01:00; Th-Sa 18:00-04:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3116442778,
+      "lat": 48.1482838,
+      "lon": 17.1089190,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housename": "Tatracentrum",
+        "addr:postcode": "811 06",
+        "addr:street": "Vysoká",
+        "amenity": "bar",
+        "name": "Euro Café Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3116455080,
+      "lat": 48.1416974,
+      "lon": 17.1154144,
+      "tags": {
+        "amenity": "nightclub",
+        "name": "UHU Club",
+        "opening_hours": "Mo,Fr 21:00-24:00; Tu 00:00-01:00; Sa 00:00-05:00,21:00-24:00; Su 00:00-05:00",
+        "website": "http://www.uhuclub.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3116459626,
+      "lat": 48.1497678,
+      "lon": 17.1143424,
+      "tags": {
+        "amenity": "nightclub",
+        "check_date": "2022-09-07",
+        "name": "The International",
+        "old_name": "ŠTU CAFE & SHISHA;Mamounia shisha bar;Cafe Nepal",
+        "opening_hours": "Mo-Fr 16:00-24:00; Sa,Su 00:00-02:00,16:00-24:00",
+        "operator": "Mitch&Oscar s.r.o.",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3116463612,
+      "lat": 48.1478800,
+      "lon": 17.1065827,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "19",
+        "addr:postcode": "811 06",
+        "addr:street": "Suché mýto",
+        "addr:streetnumber": "19",
+        "amenity": "bar",
+        "name": "Le Petit",
+        "opening_hours": "Mo-Sa 10:00-03:00; Su 10:00-14:00",
+        "website": "http://www.lepetit.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3126592995,
+      "lat": 48.1768554,
+      "lon": 17.1564214,
+      "tags": {
+        "amenity": "pub",
+        "name": "Jama"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3129218401,
+      "lat": 48.1199545,
+      "lon": 17.1302666,
+      "tags": {
+        "amenity": "pub",
+        "name": "Petržalská piváreň",
+        "opening_hours": "Su-Th 08:00-24:00; Fr-Sa 08:00-02:00",
+        "website": "http://www.petrzalskapivaren.sk/uvod"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3137105000,
+      "lat": 48.1155568,
+      "lon": 17.1055046,
+      "tags": {
+        "amenity": "pub",
+        "level": "0",
+        "name": "Flip pub",
+        "opening_hours": "Mo-Fr 10:00-24:00; Sa-Su 11:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3144490912,
+      "lat": 48.1457129,
+      "lon": 17.1065020,
+      "tags": {
+        "amenity": "bar",
+        "name": "Channels",
+        "opening_hours": "Su-Th 20:00-04:00, Fr,Sa 20:00-06:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3144490913,
+      "lat": 48.1457461,
+      "lon": 17.1067775,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "10",
+        "addr:postcode": "811 03",
+        "addr:street": "Hurbanovo námestie",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "bar",
+        "level": "0",
+        "name": "Avenue10",
+        "old_name": "Konzerva Cafe & Cocktail Bar",
+        "opening_hours": "Mo-We 11:00-01:00, Th-Sa 11:00-04:00",
+        "source": "survey",
+        "website": "https://avenue10.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3175830388,
+      "lat": 48.1137092,
+      "lon": 17.0864326,
+      "tags": {
+        "amenity": "bar",
+        "name": "Rozeta",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3207591545,
+      "lat": 48.1443746,
+      "lon": 17.1063561,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "5",
+        "addr:postcode": "811 03",
+        "addr:street": "Michalská",
+        "addr:streetnumber": "5",
+        "amenity": "pub",
+        "cuisine": "mexican",
+        "name": "The Red Lion",
+        "old_name": "Le Appetit",
+        "opening_hours": "Mo-Th 16:00-24:00; Fr 16:00-26:00, Sa 13:00-26:00, Su 13:00-24:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3215663561,
+      "lat": 48.0987366,
+      "lon": 17.1178140,
+      "tags": {
+        "amenity": "pub",
+        "name": "Forest pub",
+        "opening_hours": "Mo-Th,Su 15:00-24:00; Fr,Sa 15:00-02:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3215663563,
+      "lat": 48.0965180,
+      "lon": 17.1107788,
+      "tags": {
+        "amenity": "pub",
+        "name": "Osmička",
+        "opening_hours": "Mo-Su 08:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3215682208,
+      "lat": 48.0972299,
+      "lon": 17.1078646,
+      "tags": {
+        "amenity": "pub",
+        "level": "0",
+        "name": "U troch čertov",
+        "opening_hours": "Mo-Su 12:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3219457539,
+      "lat": 48.1422638,
+      "lon": 17.1038276,
+      "tags": {
+        "amenity": "bar",
+        "name": "Time"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3232102147,
+      "lat": 48.1508702,
+      "lon": 17.1355148,
+      "tags": {
+        "amenity": "pub",
+        "drink:wine": "retail;served",
+        "name": "Viecha Malých Vinárov",
+        "opening_hours": "Mo-Su 15:00-23:00",
+        "operator": "Eventissimi",
+        "phone": "+421 908 134 994",
+        "reservation": "yes",
+        "smoking": "no",
+        "website": "http://viecha.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3255267864,
+      "lat": 48.1194798,
+      "lon": 17.1321506,
+      "tags": {
+        "amenity": "bar",
+        "complete": "no",
+        "internet_access": "wlan",
+        "name": "BistrOne",
+        "website": "http://www.bistrone.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3255381746,
+      "lat": 48.1218928,
+      "lon": 17.1301513,
+      "tags": {
+        "amenity": "bar",
+        "name": "Full House Cafe",
+        "opening_hours": "Mo-Fr 11:00-23:00; Sa-Su 13:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3255381753,
+      "lat": 48.1264990,
+      "lon": 17.1257382,
+      "tags": {
+        "amenity": "pub",
+        "name": "U špinavca",
+        "opening_hours": "Mo-Su 09:00-21:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3255494919,
+      "lat": 48.1254798,
+      "lon": 17.1308067,
+      "tags": {
+        "amenity": "pub",
+        "name": "Plzeňský prazdroj",
+        "opening_hours": "Mo 10:00-23:00; Tu-Th 10:00-24:00; Fr 10:00-01:00; Sa 11:00-01:00; Su 11:00-23:00",
+        "operator": "GASTRO PLUS s.r.o.",
+        "outdoor_seating": "yes",
+        "website": "http://www.plzenska.sk/plzensky-prazdroj/uvod.php"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3255494924,
+      "lat": 48.1280622,
+      "lon": 17.1250208,
+      "tags": {
+        "amenity": "bar",
+        "fixme": "overit ci este existuje",
+        "name": "Winger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3258264822,
+      "lat": 48.1265702,
+      "lon": 17.1193288,
+      "tags": {
+        "amenity": "pub",
+        "name": "Ratata",
+        "website": "https://ratata.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3260079922,
+      "lat": 48.1205896,
+      "lon": 17.1319160,
+      "tags": {
+        "amenity": "pub",
+        "name": "FC Petržalka Pub",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3265949623,
+      "lat": 48.1423482,
+      "lon": 17.1126333,
+      "tags": {
+        "addr:city": "Bratislava - Staré Mesto",
+        "addr:housenumber": "33",
+        "addr:postcode": "811 02",
+        "addr:street": "Medená",
+        "amenity": "pub",
+        "email": "info@100piv.sk",
+        "name": "100 pív",
+        "opening_hours": "Mo-Fr 12:00-22:00; Sa-Su 15:00-22:00",
+        "operator": "MMS group",
+        "phone": "+421 948 405 409",
+        "website": "http://www.100piv.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3267293172,
+      "lat": 48.1080870,
+      "lon": 17.1068991,
+      "tags": {
+        "amenity": "pub",
+        "level": "1",
+        "name": "U Nika",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3276698862,
+      "lat": 48.1517812,
+      "lon": 17.1072192,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "amenity": "pub",
+        "name": "Fabrika",
+        "opening_hours": "Mo-Su 11:30-24:00; Sa 00:00-01:00,11:30-24:00",
+        "operator": "LOFT HOTEL",
+        "website": "https://www.fabrikapub.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318102399,
+      "lat": 48.1294941,
+      "lon": 17.0995798,
+      "tags": {
+        "alt_name": "Inpulz U Laca",
+        "amenity": "pub",
+        "level": "1",
+        "name": "Espresso Inpulz U Laca",
+        "opening_hours": "Mo-Su 08:00-15:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3381155382,
+      "lat": 48.1421462,
+      "lon": 17.1056895,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "55/2",
+        "addr:postcode": "811 01",
+        "addr:street": "Rudnayovo námestie",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/pages/Pinot/",
+        "name": "Pinot u Bruna",
+        "opening_hours": "Mo-Sa 18:00-22:00",
+        "operator": "VINI",
+        "outdoor_seating": "yes",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3417825960,
+      "lat": 48.1058045,
+      "lon": 17.1273618,
+      "tags": {
+        "amenity": "pub",
+        "name": "Meluzína",
+        "outdoor_seating": "yes",
+        "source": "Ortofotomozaika SR"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3424999526,
+      "lat": 48.1444588,
+      "lon": 17.0987150,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "name": "Minipub",
+        "opening_hours": "Mo-Su 18:00-01:00",
+        "smoking": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3518882766,
+      "lat": 48.1581277,
+      "lon": 17.1567385,
+      "tags": {
+        "amenity": "pub",
+        "name": "Ružinovská klubovňa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3561960763,
+      "lat": 48.1444692,
+      "lon": 17.1120434,
+      "tags": {
+        "amenity": "nightclub",
+        "contact:facebook": "https://www.facebook.com/fuga.ba",
+        "contact:website": "http://fuga.forumabsurdum.sk/",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Fuga",
+        "opening_hours": "Mo-Fr 16:00-24:00; Sa,Su 00:00-03:00,15:00-24:00",
+        "operator": "Manko",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3573284599,
+      "lat": 48.1441964,
+      "lon": 17.1044624,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "2",
+        "addr:postcode": "811 01",
+        "addr:street": "Na vŕšku",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "bar",
+        "name": "Čierny Pes",
+        "name:en": "Cierny Pes",
+        "opening_hours": "Mo 12:00-23:00; Tu-Th 12:00-23:30; Fr 12:00-00:30; Sa 14:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3579109035,
+      "lat": 48.1563942,
+      "lon": 17.1357879,
+      "tags": {
+        "amenity": "pub",
+        "name": "Beer garden",
+        "opening_hours": "11:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3597947816,
+      "lat": 48.1643972,
+      "lon": 17.1650587,
+      "tags": {
+        "amenity": "bar",
+        "name": "Herňa Kozmos",
+        "opening_hours": "Mo-Su 10:00-06:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3612403574,
+      "lat": 48.1598962,
+      "lon": 17.1294753,
+      "tags": {
+        "amenity": "pub",
+        "name": "dobrodruh.sk",
+        "website": "https://www.facebook.com/pages/Dobrodruhsk-cestovate%C4%BEsk%C3%A1-kaviare%C5%88-klubov%C5%88a/1429511414039874"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3618392216,
+      "lat": 48.1240403,
+      "lon": 17.0969447,
+      "tags": {
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "Pivovar HOPS",
+        "old_name": "U našich",
+        "opening_hours": "Mo-Su 15:00-23:00; Fr,Sa 15:00-24:00",
+        "source": "survey",
+        "website": "http://pivovarhops.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3625942410,
+      "lat": 48.1826158,
+      "lon": 17.0947517,
+      "tags": {
+        "amenity": "bar",
+        "name": "Passage",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "operator": "Altitude, a.s.",
+        "website": "http://www.altitude.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3629712710,
+      "lat": 48.1565660,
+      "lon": 17.1142169,
+      "tags": {
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/hostinec.nasanci",
+        "cuisine": "burger",
+        "name": "Hostinec na šanci",
+        "old_name": "Cafe \"54\"",
+        "opening_hours": "Mo 15:00-24:00; Tu-Fr 11:00-24:00; Sa 00:00-01:00,11:00-24:00; Su 00:00-01:00,11:00-23:00",
+        "source": "survey",
+        "website": "https://www.nasanci.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3639799922,
+      "lat": 48.1511274,
+      "lon": 17.1102907,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "amenity": "pub",
+        "fixme": "mozno restauracia",
+        "level": "-1",
+        "name": "Kaliforňan",
+        "old_name": "Zlatá kotolňa",
+        "source": "survey",
+        "website": "http://kalifornan.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3651396108,
+      "lat": 48.1405728,
+      "lon": 17.1061761,
+      "tags": {
+        "amenity": "bar",
+        "name": "MOW BAR",
+        "opening_hours": "Mo 00:00-01:00,16:00-24:00; Tu-Th 00:00-02:00,16:00-24:00; Fr-Su 00:00-04:00,16:00-24:00",
+        "operator": "BMAR",
+        "source": "survey",
+        "website": "https://www.mow.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3681336204,
+      "lat": 48.1464027,
+      "lon": 17.1033263,
+      "tags": {
+        "addr:city": "Bratislava - Staré Mesto",
+        "addr:housenumber": "12",
+        "addr:street": "Kozia",
+        "amenity": "pub",
+        "brewery": "various",
+        "capacity": "34",
+        "cuisine": "burger",
+        "name": "Staromeštianska pivotéka",
+        "opening_hours": "Mo-Sa 16:00-22:00; We-Fr 16:00-23:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3707584259,
+      "lat": 48.1533728,
+      "lon": 17.1609025,
+      "tags": {
+        "amenity": "pub",
+        "name": "Club 7",
+        "opening_hours": "Su-Th 09:00-22:00; Fr,Sa 09:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3731010306,
+      "lat": 48.1531164,
+      "lon": 17.0616482,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Pilula pub",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3744647242,
+      "lat": 48.0972104,
+      "lon": 17.1116737,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "level": "1",
+        "name": "Piváreň U Mareka",
+        "old_name": "Piváreň u Limpiho",
+        "opening_hours": "Mo-Su 16:00-23:00; Fr,Sa 16:00-24:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3772152684,
+      "lat": 48.1568795,
+      "lon": 17.0482837,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "62",
+        "addr:postcode": "841 05",
+        "addr:street": "Ľudovíta Fullu",
+        "amenity": "pub",
+        "name": "Garage",
+        "opening_hours": "Su-Th 12:00-23:00; Fr-Sa 12:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3826844632,
+      "lat": 48.1577875,
+      "lon": 17.1506162,
+      "tags": {
+        "amenity": "pub",
+        "name": "Marlon Pub",
+        "opening_hours": "Mo-We 10:00-24:00; Th,Fr 00:00-02:00,10:00-24:00; Sa,Su 00:00-02:00,11:00-24:00",
+        "outdoor_seating": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3839610864,
+      "lat": 48.1219252,
+      "lon": 17.1061030,
+      "tags": {
+        "amenity": "bar",
+        "name": "club",
+        "opening_hours": "Mo-Su 18:00-24:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3861506743,
+      "lat": 48.1164564,
+      "lon": 17.1094342,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "level": "1",
+        "name": "Pivárnička",
+        "opening_hours": "Mo-Su 16:00-22:00; Fr,Sa 16:00-23:00",
+        "smoking": "outside",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3861506746,
+      "lat": 48.1149437,
+      "lon": 17.1097005,
+      "tags": {
+        "amenity": "pub",
+        "level": "1",
+        "name": "Izzi pub",
+        "opening_hours": "Mo-Fr 14:00-22:00; Sa 16:00-22:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3861506750,
+      "lat": 48.1140462,
+      "lon": 17.1098280,
+      "tags": {
+        "amenity": "pub",
+        "level": "1",
+        "name": "Meteor",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3870689961,
+      "lat": 48.1903884,
+      "lon": 17.0822790,
+      "tags": {
+        "amenity": "pub",
+        "name": "Bufet Železná studnička",
+        "outdoor_seating": "yes",
+        "website": "https://www.facebook.com/Zeleznastudnicka.ba/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3871458308,
+      "lat": 48.1566656,
+      "lon": 17.1674491,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Bistro Exnárka",
+        "old_name": "Camelia",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3877213335,
+      "lat": 48.1492720,
+      "lon": 17.1130542,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:postcode": "811 06",
+        "addr:street": "Kollárovo námestie",
+        "amenity": "pub",
+        "name": "Kollárko",
+        "smoking": "no",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3904952427,
+      "lat": 48.1450782,
+      "lon": 17.1065918,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "2",
+        "addr:postcode": "811 03",
+        "addr:street": "Baštová",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "bar",
+        "check_date": "2022-09-07",
+        "contact:facebook": "https://www.facebook.com/Bar-u-Kata-384480031694428/",
+        "internet_access": "no",
+        "name": "U Kata",
+        "opening_hours": "Mo-Th 12:00-02:00; Fr-Sa 12:00-04:00; Su 12:00-02:00",
+        "outdoor_seating": "no",
+        "smoking": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4032020607,
+      "lat": 48.1169661,
+      "lon": 17.1105350,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Zrkadlo",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4095119641,
+      "lat": 48.1443418,
+      "lon": 17.1131657,
+      "tags": {
+        "amenity": "pub",
+        "contact:facebook": "http://www.facebook.com/steinplatz/",
+        "name": "Steinplatz",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4150698337,
+      "lat": 48.1458344,
+      "lon": 17.0927022,
+      "tags": {
+        "amenity": "pub",
+        "name": "U Michala",
+        "opening_hours": "Mo,Fr 17:00-20:00; Sa-Su 18:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4162100191,
+      "lat": 48.1523448,
+      "lon": 17.1170720,
+      "tags": {
+        "amenity": "pub",
+        "name": "Urpiner",
+        "opening_hours": "Mo-Fr 16:00-22:00; Sa,Su 17:00-22:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4214500438,
+      "lat": 48.1527631,
+      "lon": 17.1064137,
+      "tags": {
+        "addr:city": "Bratislava",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Bon Bon Jazz bar",
+        "old_name": "Ritmo Caliente",
+        "opening_hours": "Mo-Fr 07:30-22:00; Sa 10:00-22:00; Su 10:00-18:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4246228894,
+      "lat": 48.1583846,
+      "lon": 17.1451401,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bufet Strkovec"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4257259528,
+      "lat": 48.1691192,
+      "lon": 17.0763245,
+      "tags": {
+        "amenity": "pub",
+        "name": "Výčap Patrónka",
+        "opening_hours": "Mo-Fr 07:00-21:30; Sa,Su 08:00-21:30",
+        "source": "survey",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4357788606,
+      "lat": 48.1450843,
+      "lon": 17.1076062,
+      "tags": {
+        "amenity": "bar",
+        "name": "Grand Cru Wine Gallery",
+        "opening_hours": "Mo-Sa 17:00-22:00",
+        "shop": "wine",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464863323,
+      "lat": 48.1424833,
+      "lon": 17.1079335,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "13",
+        "addr:postcode": "811 01",
+        "addr:street": "Panská",
+        "amenity": "pub",
+        "description": "Craft beer pub",
+        "name": "Žil Verne",
+        "smoking": "no",
+        "website": "https://www.facebook.com/ZILVERNE/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4523898646,
+      "lat": 48.1478255,
+      "lon": 17.1042053,
+      "tags": {
+        "addr:city": "Bratislava - Staré Mesto",
+        "addr:housenumber": "24",
+        "addr:postcode": "811 03",
+        "addr:street": "Panenská",
+        "amenity": "nightclub",
+        "name": "Apollon Gay Club"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4573741624,
+      "lat": 48.1564349,
+      "lon": 17.1327227,
+      "tags": {
+        "addr:housenumber": "99/5",
+        "addr:postcode": "821 08",
+        "addr:street": "Miletičova",
+        "amenity": "bar",
+        "email": "vinobar@vinobar.eu",
+        "internet_access": "wlan",
+        "name": "Vino",
+        "opening_hours": "Mo-Fr 08:30-00:00; Sa 18:00-00:00",
+        "phone": "+421905428830",
+        "shop": "wine",
+        "source": "survey",
+        "website": "http://www.vinobar.eu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4620560589,
+      "lat": 48.1438166,
+      "lon": 17.1110140,
+      "tags": {
+        "amenity": "bar",
+        "name": "The Cuba Libre Rum & Cigar House",
+        "opening_hours": "Mo 16:00-24:00; Tu-Fr 00:00-01:00,16:00-24:00; Sa,Su 00:00-02:00,16:00-24:00",
+        "operator": "Fusion Group",
+        "phone": "+421905535693",
+        "source": "survey",
+        "website": "https://www.thecubalibre.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4636004484,
+      "lat": 48.1336582,
+      "lon": 17.1062098,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "18",
+        "addr:postcode": "851 01",
+        "addr:street": "Einsteinova",
+        "addr:streetnumber": "18",
+        "amenity": "bar",
+        "name": "OXO TEA COCKTAILS",
+        "opening_hours": "10:00-21:00",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4636017391,
+      "lat": 48.1402678,
+      "lon": 17.1222714,
+      "tags": {
+        "addr:city": "Bratislava - Staré Mesto",
+        "addr:housenumber": "8",
+        "addr:postcode": "811 09",
+        "addr:street": "Pribinova",
+        "amenity": "bar",
+        "name": "OXO TEA COCKTAILS",
+        "opening_hours": "10:00-21:00",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4645787190,
+      "lat": 48.1461084,
+      "lon": 17.1148509,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:postcode": "811 08",
+        "addr:street": "Rajská",
+        "amenity": "nightclub",
+        "email": "info@lunabar.sk",
+        "internet_access": "wlan",
+        "min_age": "21",
+        "name": "Luna bar",
+        "opening_hours": "Th,Fr 20:00-24:00; Sa,Su 00:00-04:00",
+        "operator": "Partymaker",
+        "phone": "+421911872672",
+        "smoking": "isolated",
+        "website": "https://www.lunabar.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4690825081,
+      "lat": 48.1451842,
+      "lon": 17.1100098,
+      "tags": {
+        "amenity": "nightclub",
+        "layer": "4",
+        "name": "KC Dunaj",
+        "website": "https://www.kcdunaj.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4705385578,
+      "lat": 48.1445312,
+      "lon": 17.1068105,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "10",
+        "addr:postcode": "811 01",
+        "addr:street": "Michalská",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "pub",
+        "name": "Kristián Beer Pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4771360721,
+      "lat": 48.1623599,
+      "lon": 17.1310634,
+      "tags": {
+        "amenity": "pub",
+        "name": "Krídelkovo",
+        "opening_hours": "11:00-22:00",
+        "survey:date": "2021-07-13"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4893836674,
+      "lat": 48.1428467,
+      "lon": 17.1068083,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:postcode": "811 01",
+        "addr:street": "Zelená",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "bar",
+        "name": "FACH - Cocktail Bar",
+        "opening_hours": "Mo-Sa 09:30-22:00, Su 09:30-20:00",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4894305238,
+      "lat": 48.1530685,
+      "lon": 17.1068679,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:country": "SK",
+        "addr:housenumber": "14",
+        "addr:street": "Štefánikova",
+        "amenity": "pub",
+        "level": "-1",
+        "name": "Dungeon Pub",
+        "opening_hours": "Mo-Th 16:00-24:00; Fr,Sa 00:00-02:00,16:00-24:00; Su 00:00-02:00",
+        "phone": "+421 903 412 248",
+        "website": "https://facebook.com/dungeonpub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4917319053,
+      "lat": 48.1483792,
+      "lon": 17.1094567,
+      "tags": {
+        "amenity": "pub",
+        "drink:wine": "yes",
+        "name": "Malokarpatská viecha",
+        "opening_hours": "Mo-Sa 15:00-00:00",
+        "website": "http://malokarpatskaviecha.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5002073978,
+      "lat": 48.1445160,
+      "lon": 17.1109734,
+      "tags": {
+        "amenity": "pub",
+        "name": "Viecha malých vinárov",
+        "old_name": "Dobre&Dobre",
+        "opening_hours": "Mo-Fr 10:00-24:00; Sa 09:00-24:00; Su 15:00-24:00",
+        "operator": "EVENTISSIMI",
+        "phone": "+421 905 736 956",
+        "reservation": "yes",
+        "shop": "wine",
+        "website": "http://viecha.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5029736412,
+      "lat": 48.1445158,
+      "lon": 17.0800482,
+      "tags": {
+        "amenity": "bar",
+        "name": "Lážo-Plážo Bar",
+        "outdoor_seating": "yes",
+        "source": "survey",
+        "website": "https://www.machnac.sk/lazoplazo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5041693423,
+      "lat": 48.1448115,
+      "lon": 17.1112785,
+      "tags": {
+        "amenity": "pub",
+        "check_date": "2022-09-07",
+        "name": "Výčap u Ernöho",
+        "opening_hours": "Mo-We 15:00-24:00; Th-Sa 15:00-01:00; Su 16:00-24:00",
+        "operator": "Shenk",
+        "website": "http://www.pivovarshenk.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5064975927,
+      "lat": 48.1444667,
+      "lon": 17.1121003,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2022-09-07",
+        "internet_access": "wlan",
+        "name": "Bukowski Bar",
+        "opening_hours": "Mo-Th 00:00-03:00,16:00-24:00; Fr,Sa 00:00-04:00,16:00-24:00; Su 00:00-04:00,17:00-24:00",
+        "website": "http://Facebook.com/bukowskisk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5134750363,
+      "lat": 48.1421522,
+      "lon": 17.1252616,
+      "tags": {
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Emporio lounge bar",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr 07:00-24:00; Sa 08:00-24:00; Su 09:00-21:00",
+        "operator": "EMPORIO Group",
+        "smoking": "no",
+        "website": "http://www.emporiobar.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5153742295,
+      "lat": 48.1537365,
+      "lon": 17.0503829,
+      "tags": {
+        "amenity": "bar",
+        "level": "0",
+        "name": "Alpine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5154223816,
+      "lat": 48.1763295,
+      "lon": 17.1569604,
+      "tags": {
+        "amenity": "pub",
+        "name": "Magnet pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5167687676,
+      "lat": 48.1247733,
+      "lon": 17.1139821,
+      "tags": {
+        "amenity": "pub",
+        "level": "0",
+        "name": "Magic sport club",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5183867512,
+      "lat": 48.1497339,
+      "lon": 17.0498613,
+      "tags": {
+        "amenity": "bar",
+        "name": "Shisha Lounge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5217967650,
+      "lat": 48.1458164,
+      "lon": 17.1194399,
+      "tags": {
+        "amenity": "bar",
+        "description": "Cigar and whisky lounge with grill restaurant.",
+        "name": "Dunajská 54",
+        "website": "http://d54.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5310771421,
+      "lat": 48.1452437,
+      "lon": 17.1064167,
+      "tags": {
+        "amenity": "pub",
+        "name": "Primi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5312197220,
+      "lat": 48.1423382,
+      "lon": 17.1074925,
+      "tags": {
+        "amenity": "bar",
+        "name": "mini bar",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5312197831,
+      "lat": 48.1413941,
+      "lon": 17.1090114,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Hviezdoslavovo námestie",
+        "amenity": "bar",
+        "name": "Zrkadlový bar",
+        "name:en": "Mirror Cocktail Bar",
+        "opening_hours": "Mo-Fr 00:00-01:00,09:00-24:00; Sa,Su 00:00-01:00,14:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5320819333,
+      "lat": 48.1446602,
+      "lon": 17.1070640,
+      "tags": {
+        "amenity": "pub",
+        "name": "Goblins"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5517175524,
+      "lat": 48.1492761,
+      "lon": 17.1131204,
+      "tags": {
+        "amenity": "bar",
+        "name": "Kollarko",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5555071867,
+      "lat": 48.1829407,
+      "lon": 17.1319791,
+      "tags": {
+        "addr:housenumber": "78",
+        "addr:street": "Račianska",
+        "amenity": "bar",
+        "indoor": "yes",
+        "level": "0",
+        "name": "Skrytý bar",
+        "opening_hours": "Mo-Fr 08:00-22:00",
+        "operator": "Cvernovka s.r.o.",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5700289580,
+      "lat": 48.1490982,
+      "lon": 17.1129549,
+      "tags": {
+        "amenity": "bar",
+        "level": "-1",
+        "name": "Myst",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5736509119,
+      "lat": 48.1424729,
+      "lon": 17.1078830,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "13",
+        "addr:postcode": "811 01",
+        "addr:street": "Panská",
+        "addr:suburb": "Staré Mesto",
+        "amenity": "pub",
+        "brewery": "yes",
+        "name": "Be Unorthodox",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6147219309,
+      "lat": 48.1481753,
+      "lon": 17.1624345,
+      "tags": {
+        "amenity": "pub",
+        "name": "feriba",
+        "opening_hours": "Mo-Su 16:00-22:00",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "website": "https://www.feriba.pub/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6296619686,
+      "lat": 48.1432915,
+      "lon": 17.1093705,
+      "tags": {
+        "amenity": "bar",
+        "name": "Spin coctail bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6338308885,
+      "lat": 48.1494359,
+      "lon": 17.1331003,
+      "tags": {
+        "amenity": "pub",
+        "name": "Pecto",
+        "opening_hours": "Mo-Fr 09:10-13:00,17:00-22:55; Sa 18:00-22:55",
+        "opening_hours:covid19": "Mo-Su 16:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:diners_club": "yes",
+        "payment:discover_card": "yes",
+        "payment:jcb": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "smoking": "no",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6338308886,
+      "lat": 48.1495246,
+      "lon": 17.1332580,
+      "tags": {
+        "amenity": "bar",
+        "name": "Chuťotéka",
+        "old_name": "Ahoy",
+        "opening_hours": "Tu-Th 11:00-23:00; Fr,Sa 11:00-24:00",
+        "operator": "Karpatská Perla",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6342067927,
+      "lat": 48.1556815,
+      "lon": 17.1196745,
+      "tags": {
+        "amenity": "bar",
+        "club": "game",
+        "name": "Nexus PC Games Club & bar",
+        "opening_hours": "Mo-Th 00:00-01:00,09:00-24:00; Fr-Su 00:00-03:00,09:00-24:00",
+        "source": "survey",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6446743285,
+      "lat": 48.1529064,
+      "lon": 17.1433920,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Damian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6454863985,
+      "lat": 48.1461075,
+      "lon": 17.1101923,
+      "tags": {
+        "amenity": "pub",
+        "check_date": "2022-09-08",
+        "microbrewery": "yes",
+        "name": "Kláštorný pivovar",
+        "name:en": "Monastic brewery",
+        "opening_hours": "Tu-Sa 12:00-23:00",
+        "operator": "Orava servis",
+        "website": "https://klastornypivovar.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6468700085,
+      "lat": 48.1426616,
+      "lon": 17.1079876,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Baudelaire"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6468727285,
+      "lat": 48.1444373,
+      "lon": 17.1065927,
+      "tags": {
+        "amenity": "bar",
+        "name": "Enigma",
+        "name:en": "Enigma"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6742946307,
+      "lat": 48.1628652,
+      "lon": 17.0989591,
+      "tags": {
+        "amenity": "pub",
+        "name": "Tribuna",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6871140249,
+      "lat": 48.1507974,
+      "lon": 17.0614591,
+      "tags": {
+        "amenity": "pub",
+        "drink:wine": "yes",
+        "name": "Paleta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6939925791,
+      "lat": 48.1190300,
+      "lon": 17.1147742,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Galaxy",
+        "opening_hours": "Mo-Su 00:00-03:00,10:00-24:00",
+        "operator": "MATUMI",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6997425489,
+      "lat": 48.1452049,
+      "lon": 17.1105422,
+      "tags": {
+        "amenity": "bar",
+        "level": "0",
+        "name": "BOHÉMA",
+        "opening_hours": "Mo 12:00-24:00; Tu-Th 00:00-01:00,12:00-24:00; Fr 00:00-04:00,12:00-24:00; Sa 00:00-04:00,17:00-24:00; Su 00:00-04:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7039273467,
+      "lat": 48.1648380,
+      "lon": 17.1536080,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "34",
+        "addr:postcode": "821 01",
+        "addr:street": "Tomášikova",
+        "amenity": "nightclub",
+        "name": "Salsa by Norika",
+        "opening_hours": "Mo-Th 18:00-23:00; Fr 21:00-04:00",
+        "smoking": "outside",
+        "website": "https://www.norika.sk/sk/kluby/dance-club-salsa-by-norika"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7089705775,
+      "lat": 48.1623134,
+      "lon": 17.1252971,
+      "tags": {
+        "amenity": "pub",
+        "brewery": "Gambrinus",
+        "food": "yes",
+        "name": "Srdcovka Urban Pub",
+        "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 10:00-22:00",
+        "website": "http://urbanpub.sk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7283447616,
+      "lat": 48.1432755,
+      "lon": 17.1108440,
+      "tags": {
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "10 prstov",
+        "opening_hours": "Mo-Su 09:30-23:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7778429227,
+      "lat": 48.1125281,
+      "lon": 17.1016245,
+      "tags": {
+        "amenity": "bar",
+        "min_age": "18",
+        "opening_hours": "Mo-Su 00:00-03:00,10:00-24:00",
+        "operator": "Slovak Restaurants"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7807445094,
+      "lat": 48.1397949,
+      "lon": 17.1125600,
+      "tags": {
+        "amenity": "pub",
+        "name": "Beerdock",
+        "opening_hours": "Tu-Su 15:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7820479002,
+      "lat": 48.1422393,
+      "lon": 17.1058792,
+      "tags": {
+        "addr:city": "Bratislava - Staré Mesto",
+        "addr:housenumber": "3",
+        "addr:postcode": "811 01",
+        "addr:street": "Ventúrska",
+        "amenity": "bar",
+        "name": "La Ventura -Tapas & Wine Bar",
+        "opening_hours": "Tu-Sa 18:00-22:00",
+        "phone": "+421 701 708",
+        "website": "http://laventura.sk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7930682568,
+      "lat": 48.1443152,
+      "lon": 17.1210450,
+      "tags": {
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/gallerysenk/",
+        "name": "Gallery Šenk",
+        "opening_hours": "Mo-Fr 15:00-22:00; Sa-Su off"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8022777893,
+      "lat": 48.1400351,
+      "lon": 17.1063901,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/lartbratislava/",
+        "fixme": "overit funkcnost",
+        "name": "L'Art",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8026391691,
+      "lat": 48.1532438,
+      "lon": 17.0494460,
+      "tags": {
+        "amenity": "pub",
+        "name": "U Klučika"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8365706877,
+      "lat": 48.1443199,
+      "lon": 17.1256390,
+      "tags": {
+        "amenity": "bar",
+        "level": "0",
+        "name": "Amfora",
+        "opening_hours": "Mo-Su 16:00-20:00",
+        "operator": "VINUM AURUM",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693327326,
+      "lat": 48.1697375,
+      "lon": 17.1416458,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/bootcabar/",
+        "contact:phone": "+421910111881",
+        "name": "Bootca Bar",
+        "opening_hours": "Mo-Su 11:00-20:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8770185350,
+      "lat": 48.1474579,
+      "lon": 17.1105989,
+      "tags": {
+        "amenity": "pub",
+        "name": "Picollo pub",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8942426469,
+      "lat": 48.1029880,
+      "lon": 17.1092215,
+      "tags": {
+        "amenity": "pub",
+        "name": "Havana grill Draždiak",
+        "outdoor_seating": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9727767433,
+      "lat": 48.1360686,
+      "lon": 17.1075274,
+      "tags": {
+        "amenity": "pub",
+        "name": "Kids Garden",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "outdoor_seating": "yes",
+        "phone": "+421 904 382 676"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9804066535,
+      "lat": 48.1862372,
+      "lon": 17.1273610,
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:housenumber": "5/A",
+        "addr:postcode": "831 02",
+        "addr:street": "Horská",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "Bufet Korenec",
+        "opening_hours": "Th-Su 16:00-20:00",
+        "outdoor_seating": "yes",
+        "website": "https://bufet-korenec.business.site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9859307445,
+      "lat": 48.1561718,
+      "lon": 17.1081282,
+      "tags": {
+        "amenity": "bar",
+        "fixme": "upresnit polohu",
+        "name": "Signature Bar",
+        "opening_hours": "Mo-Su 00:00-01:00,07:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9967548994,
+      "lat": 48.1890266,
+      "lon": 17.1276517,
+      "tags": {
+        "addr:street": "Horská",
+        "amenity": "pub",
+        "cuisine": "soup",
+        "name": "Bufet na dobrom mieste"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10003136603,
+      "lat": 48.1884917,
+      "lon": 17.1344584,
+      "tags": {
+        "amenity": "pub",
+        "name": "Remíza",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 12:00-00:00; Su 12:00-22:00",
+        "outdoor_seating": "yes"
+      }
+    }
+  ]
+}

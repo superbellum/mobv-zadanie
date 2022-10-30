@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/findPubFormFragment"
+        android:name="com.example.mobvzadanie.FindPubFormFragment"
+        android:label="Find Pub"
+        tools:layout="@layout/fragment_find_pub_form">
+        <action
+            android:id="@+id/action_formFragment_to_showFragment"
+            app:destination="@id/findPubShowFragment"
+            app:popUpTo="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/findPubShowFragment"
+        android:name="com.example.mobvzadanie.FindPubMapFragment"
+        android:label="Show Pub"
+        tools:layout="@layout/fragment_find_pub_map">
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="pub_name"
+            app:argType="string" />
+        <argument
+            android:name="pub_latitude"
+            app:argType="string" />
+        <argument
+            android:name="pub_longitude"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.mobvzadanie.TitleFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_title">
+        <action
+            android:id="@+id/action_titleFragment_to_formFragment"
+            app:destination="@id/findPubFormFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_listPubsFragment"
+            app:destination="@id/listPubsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listPubsFragment"
+        android:name="com.example.mobvzadanie.ListPubsFragment"
+        android:label="List Pubs"
+        tools:layout="@layout/fragment_list_pubs" >
+        <action
+            android:id="@+id/action_listPubsFragment_to_pubDetailFragment"
+            app:destination="@id/pubDetailFragment"
+            app:popUpTo="@id/listPubsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pubDetailFragment"
+        android:name="com.example.mobvzadanie.PubDetailFragment"
+        android:label="Pub Details"
+        tools:layout="@layout/fragment_pub_detail">
+        <argument
+            android:name="pub"
+            app:argType="com.example.mobvzadanie.data.Pub" />
+    </fragment>
+</navigation>
