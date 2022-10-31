@@ -20,17 +20,17 @@ class FindPubShowFragment : Fragment() {
             inflater, R.layout.fragment_find_pub_map, container, false
         )
 
-        val args = sk.stuba.fei.api.mobv.zadanie.fragments.findmypub.FindPubShowFragmentArgs.fromBundle(
-            requireArguments()
-        )
-        binding.nameText.text = args.name
-        binding.pubNameText.text = args.pubName
+        val args = FindPubShowFragmentArgs.fromBundle(requireArguments())
+        val findMyPubFormData = args.findMyPubFormData
+
+        binding.nameText.text = findMyPubFormData.name
+        binding.pubNameText.text = findMyPubFormData.pubName
 
         binding.showMapButton.setOnClickListener {
             IntentHelper.showPubOnMap(
-                this,
-                args.pubLatitude,
-                args.pubLongitude
+                fragment = this,
+                latitude = findMyPubFormData.latitude,
+                longitude = findMyPubFormData.longitude
             )
         }
 

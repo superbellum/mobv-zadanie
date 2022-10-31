@@ -2,15 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/homeFragment"
+        android:id="@+id/nav_home"
+        android:contentDescription="@string/bottom_nav_menu_item_home"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="Home" />
+        android:title="@string/bottom_nav_menu_item_home" />
     <item
-        android:id="@+id/navigationFindPub"
+        android:id="@+id/nav_find_my_pub"
+        android:contentDescription="@string/bottom_nav_menu_item_find_my_pub"
         android:icon="@drawable/ic_baseline_location_searching_24"
-        android:title="Find My Pub" />
+        android:title="@string/bottom_nav_menu_item_find_my_pub" />
     <item
-        android:id="@+id/navigationListPubs"
+        android:id="@+id/nav_list_pubs"
+        android:contentDescription="@string/bottom_nav_menu_item_list_pubs"
         android:icon="@drawable/ic_baseline_list_24"
-        android:title="List Pubs" />
+        android:title="@string/bottom_nav_menu_item_list_pubs" />
 </menu>

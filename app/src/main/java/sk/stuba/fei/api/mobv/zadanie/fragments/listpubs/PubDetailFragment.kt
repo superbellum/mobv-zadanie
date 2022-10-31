@@ -22,8 +22,7 @@ class PubDetailFragment : Fragment() {
             inflater, R.layout.fragment_pub_detail, container, false
         )
 
-        val args =
-            sk.stuba.fei.api.mobv.zadanie.fragments.listpubs.PubDetailFragmentArgs.fromBundle(requireArguments())
+        val args = PubDetailFragmentArgs.fromBundle(requireArguments())
         binding.pub = args.pub
 
         binding.openPubMapButton.setOnClickListener {

@@ -38,8 +38,7 @@ class PubItemAdapter(
         // show details of current pub by clicking on current item view
         holder.itemView.setOnClickListener {
             it.findNavController().navigate(
-                ListPubsFragmentDirections
-                    .actionListPubsFragmentToPubDetailFragment(pub)
+                ListPubsFragmentDirections.actionListPubsToPubDetail(pub)
             )
         }
     }

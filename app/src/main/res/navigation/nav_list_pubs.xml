@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_list_pubs"
+    app:startDestination="@id/listPubsScreen">
+
+    <fragment
+        android:id="@+id/listPubsScreen"
+        android:name="sk.stuba.fei.api.mobv.zadanie.fragments.listpubs.ListPubsFragment"
+        android:label="@string/bottom_nav_menu_item_list_pubs"
+        tools:layout="@layout/fragment_list_pubs">
+        <action
+            android:id="@+id/action_listPubs_to_pubDetail"
+            app:destination="@id/pubDetailScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/pubDetailScreen"
+        android:name="sk.stuba.fei.api.mobv.zadanie.fragments.listpubs.PubDetailFragment"
+        android:label="@string/pub_detail"
+        tools:layout="@layout/fragment_pub_detail">
+        <argument
+            android:name="pub"
+            app:argType="sk.stuba.fei.api.mobv.zadanie.data.Pub" />
+    </fragment>
+</navigation>

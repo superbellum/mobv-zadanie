@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import sk.stuba.fei.api.mobv.zadanie.R
+import sk.stuba.fei.api.mobv.zadanie.data.FindMyPubFormData
 import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentFindPubFormBinding
 
 class FindPubFormFragment : Fragment() {
@@ -22,11 +23,13 @@ class FindPubFormFragment : Fragment() {
 
         binding.applyFormButton.setOnClickListener {
             it.findNavController().navigate(
-                sk.stuba.fei.api.mobv.zadanie.fragments.findmypub.FindPubFormFragmentDirections.actionFormFragmentToShowFragment(
-                    binding.formNameEdit.text.toString(),
-                    binding.formPubNameEdit.text.toString(),
-                    binding.formPubLatitudeEdit.text.toString(),
-                    binding.formPubLongitudeEdit.text.toString(),
+                FindPubFormFragmentDirections.actionFindPubFormToFindPubShow(
+                    FindMyPubFormData(
+                        name = binding.formNameEdit.text.toString(),
+                        pubName = binding.formPubNameEdit.text.toString(),
+                        latitude = binding.formPubLatitudeEdit.text.toString(),
+                        longitude = binding.formPubLongitudeEdit.text.toString()
+                    )
                 )
             )
         }
