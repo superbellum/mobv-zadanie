@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/open_pub_on_map_menu_item"
+        android:icon="@drawable/ic_baseline_pin_drop_white_24"
+        android:title="@string/menu_item_open_pub_on_map"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delete_pub_menu_item"
+        android:icon="@drawable/ic_baseline_delete_white_24"
+        android:title="@string/delete_pub_button_delete"
+        app:showAsAction="ifRoom" />
+</menu>

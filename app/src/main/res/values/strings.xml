@@ -20,4 +20,7 @@
     <string name="bottom_nav_menu_item_find_my_pub">Find My Pub</string>
     <string name="bottom_nav_menu_item_list_pubs">List Pubs</string>
     <string name="pub_detail">Pub Detail</string>
+    <string name="menu_item_sort_by_name">Sort by Name</string>
+    <string name="menu_item_about">About</string>
+    <string name="menu_item_open_pub_on_map">Open on Map</string>
 </resources>

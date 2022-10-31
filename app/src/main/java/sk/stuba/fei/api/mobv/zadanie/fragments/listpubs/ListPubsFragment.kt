@@ -47,8 +47,8 @@ class ListPubsFragment : Fragment(), MenuProvider {
         menuInflater.inflate(R.menu.sort_menu, menu)
     }
 
-    override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
-        if (menuItem.itemId == R.id.sort_pub_by_name_menu_item) {
+    override fun onMenuItemSelected(menuItem: MenuItem) = when (menuItem.itemId) {
+        R.id.sort_pub_by_name_menu_item -> {
             Datasource.pubs.apply {
                 if (sortPubsByNameAsc) {
                     sortBy { it.tags?.name }
@@ -58,9 +58,8 @@ class ListPubsFragment : Fragment(), MenuProvider {
             }
             sortPubsByNameAsc = !sortPubsByNameAsc
             binding.recyclerView.adapter?.notifyDataSetChanged()
-            return true
+            true
         }
-
-        return false
+        else -> false
     }
 }

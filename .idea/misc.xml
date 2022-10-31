@@ -7,12 +7,15 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4735" />
         <entry key="app/src/main/res/drawable/ic_baseline_web_24.xml" value="0.4735" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.4735" />
+        <entry key="app/src/main/res/layout-v26/fragment_pub_detail.xml" value="0.16337386018237082" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3026041666666667" />
         <entry key="app/src/main/res/layout/establishment_list_item.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.5158514492753623" />
         <entry key="app/src/main/res/layout/fragment_establishment_detail.xml" value="0.5090579710144928" />
         <entry key="app/src/main/res/layout/fragment_find_establishment_form.xml" value="0.46603260869565216" />
         <entry key="app/src/main/res/layout/fragment_find_establishment_map.xml" value="0.46603260869565216" />
         <entry key="app/src/main/res/layout/fragment_find_pub_map.xml" value="0.5158514492753623" />
+        <entry key="app/src/main/res/layout/fragment_find_pub_show.xml" value="0.5158514492753623" />
         <entry key="app/src/main/res/layout/fragment_find_restaurant_form.xml" value="0.46603260869565216" />
         <entry key="app/src/main/res/layout/fragment_find_restaurant_map.xml" value="0.46603260869565216" />
         <entry key="app/src/main/res/layout/fragment_form.xml" value="0.44882246376811596" />
@@ -20,9 +23,13 @@
         <entry key="app/src/main/res/layout/fragment_list_establishments.xml" value="0.46603260869565216" />
         <entry key="app/src/main/res/layout/fragment_list_pubs.xml" value="0.5158514492753623" />
         <entry key="app/src/main/res/layout/fragment_list_restaurants.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_pub_detail.xml" value="0.33697916666666666" />
         <entry key="app/src/main/res/layout/fragment_show.xml" value="0.46603260869565216" />
         <entry key="app/src/main/res/layout/fragment_title.xml" value="0.378125" />
+        <entry key="app/src/main/res/layout/pub_list_item.xml" value="0.33697916666666666" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.5666666666666667" />
+        <entry key="app/src/main/res/menu/home_menu.xml" value="0.565625" />
+        <entry key="app/src/main/res/menu/pub_detail_menu.xml" value="0.565625" />
         <entry key="app/src/main/res/menu/sort_menu.xml" value="0.565625" />
       </map>
     </option>
