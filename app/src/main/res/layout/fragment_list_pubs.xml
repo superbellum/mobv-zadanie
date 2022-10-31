@@ -11,10 +11,10 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/establishtments_total_text"
+            android:id="@+id/pubs_total_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="@string/pubs_total"
             android:textSize="14sp" />
 
         <androidx.recyclerview.widget.RecyclerView

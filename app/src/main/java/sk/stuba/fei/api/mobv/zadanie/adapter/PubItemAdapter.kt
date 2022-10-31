@@ -1,4 +1,4 @@
-package com.example.mobvzadanie.adapter
+package sk.stuba.fei.api.mobv.zadanie.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mobvzadanie.R
-import com.example.mobvzadanie.data.Pub
-import com.example.mobvzadanie.fragments.listpubs.ListPubsFragmentDirections
+import sk.stuba.fei.api.mobv.zadanie.R
+import sk.stuba.fei.api.mobv.zadanie.data.Pub
+import sk.stuba.fei.api.mobv.zadanie.fragments.listpubs.ListPubsFragmentDirections
 
 class PubItemAdapter(
     private val context: Context,
@@ -29,7 +29,7 @@ class PubItemAdapter(
     }
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
-        val pub = dataset.get(position)
+        val pub = dataset[position]
         pub.let {
             holder.pubNameTextView.text = it.tags?.name ?: "<name>"
             holder.pubIdTextView.text = it.id.toString()

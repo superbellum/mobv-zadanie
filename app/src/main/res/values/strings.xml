@@ -1,8 +1,19 @@
 <resources>
     <string name="app_name">MobvZadanie</string>
 
-    <!--    pub details-->
-    <string name="pub_coord">(%f, %f)</string>
+    <string name="pubs_total">TextView</string>
+    <string name="fill_the_form">Fill the form:</string>
+    <string name="find_pub_form_name">Name</string>
+    <string name="find_pub_form_pub_name">Pub name</string>
+    <string name="find_pub_form_pub_latitude">Pub latitude</string>
+    <string name="find_pub_form_pub_longitude">Pub longitude</string>
+    <string name="find_pub_form_apply">Apply</string>
+    <string name="find_pub_show_name">Name</string>
+    <string name="find_pub_show_pub_name">Pub Name</string>
+    <string name="find_pub_show_on_map">Show on Map</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="delete_pub_button_delete">Delete</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">About</string>
 </resources>

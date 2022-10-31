@@ -11,7 +11,7 @@
         app:startDestination="@id/listPubsFragment">
         <fragment
             android:id="@+id/listPubsFragment"
-            android:name="com.example.mobvzadanie.fragments.listpubs.ListPubsFragment"
+            android:name="sk.stuba.fei.api.mobv.zadanie.fragments.listpubs.ListPubsFragment"
             android:label="List Pubs"
             tools:layout="@layout/fragment_list_pubs">
             <action
@@ -21,12 +21,12 @@
         </fragment>
         <fragment
             android:id="@+id/pubDetailFragment"
-            android:name="com.example.mobvzadanie.fragments.listpubs.PubDetailFragment"
+            android:name="sk.stuba.fei.api.mobv.zadanie.fragments.listpubs.PubDetailFragment"
             android:label="Pub Details"
             tools:layout="@layout/fragment_pub_detail">
             <argument
                 android:name="pub"
-                app:argType="com.example.mobvzadanie.data.Pub" />
+                app:argType="sk.stuba.fei.api.mobv.zadanie.data.Pub" />
         </fragment>
     </navigation>
     <navigation
@@ -35,7 +35,7 @@
         app:startDestination="@id/findPubFormFragment">
         <fragment
             android:id="@+id/findPubFormFragment"
-            android:name="com.example.mobvzadanie.fragments.findmypub.FindPubFormFragment"
+            android:name="sk.stuba.fei.api.mobv.zadanie.fragments.findmypub.FindPubFormFragment"
             android:label="Find Pub Form"
             tools:layout="@layout/fragment_find_pub_form">
             <action
@@ -45,7 +45,7 @@
         </fragment>
         <fragment
             android:id="@+id/findPubShowFragment"
-            android:name="com.example.mobvzadanie.fragments.findmypub.FindPubMapFragment"
+            android:name="sk.stuba.fei.api.mobv.zadanie.fragments.findmypub.FindPubShowFragment"
             android:label="Show Pub"
             tools:layout="@layout/fragment_find_pub_map">
             <argument
@@ -64,7 +64,7 @@
     </navigation>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.mobvzadanie.fragments.home.HomeFragment"
+        android:name="sk.stuba.fei.api.mobv.zadanie.fragments.home.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home" />
 </navigation>

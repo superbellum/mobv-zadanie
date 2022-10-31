@@ -1,4 +1,4 @@
-package com.example.mobvzadanie.fragments.findmypub
+package sk.stuba.fei.api.mobv.zadanie.fragments.findmypub
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.example.mobvzadanie.R
-import com.example.mobvzadanie.databinding.FragmentFindPubMapBinding
-import com.example.mobvzadanie.helpers.IntentHelper
+import sk.stuba.fei.api.mobv.zadanie.R
+import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentFindPubMapBinding
+import sk.stuba.fei.api.mobv.zadanie.helpers.IntentHelper
 
-class FindPubMapFragment : Fragment() {
+class FindPubShowFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -20,7 +20,9 @@ class FindPubMapFragment : Fragment() {
             inflater, R.layout.fragment_find_pub_map, container, false
         )
 
-        val args = FindPubMapFragmentArgs.fromBundle(requireArguments())
+        val args = sk.stuba.fei.api.mobv.zadanie.fragments.findmypub.FindPubShowFragmentArgs.fromBundle(
+            requireArguments()
+        )
         binding.nameText.text = args.name
         binding.pubNameText.text = args.pubName
 

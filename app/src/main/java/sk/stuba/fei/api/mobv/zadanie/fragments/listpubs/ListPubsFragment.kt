@@ -1,4 +1,4 @@
-package com.example.mobvzadanie.fragments.listpubs
+package sk.stuba.fei.api.mobv.zadanie.fragments.listpubs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,10 +12,10 @@ import androidx.core.view.MenuProvider
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
-import com.example.mobvzadanie.R
-import com.example.mobvzadanie.adapter.PubItemAdapter
-import com.example.mobvzadanie.data.Datasource
-import com.example.mobvzadanie.databinding.FragmentListPubsBinding
+import sk.stuba.fei.api.mobv.zadanie.R
+import sk.stuba.fei.api.mobv.zadanie.adapter.PubItemAdapter
+import sk.stuba.fei.api.mobv.zadanie.data.Datasource
+import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentListPubsBinding
 
 class ListPubsFragment : Fragment(), MenuProvider {
     private lateinit var binding: FragmentListPubsBinding
@@ -31,7 +31,7 @@ class ListPubsFragment : Fragment(), MenuProvider {
         )
 
         // recycler view
-        binding.establishtmentsTotalText.text = "Total: ${Datasource.pubs.size}"
+        binding.pubsTotalText.text = "Total: ${Datasource.pubs.size}"
         val recyclerView = binding.recyclerView
         recyclerView.adapter = PubItemAdapter(requireContext(), Datasource.pubs)
         recyclerView.setHasFixedSize(true)

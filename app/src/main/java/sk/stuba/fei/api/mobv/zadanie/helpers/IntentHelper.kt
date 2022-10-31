@@ -1,4 +1,4 @@
-package com.example.mobvzadanie.helpers
+package sk.stuba.fei.api.mobv.zadanie.helpers
 
 import android.content.Intent
 import android.net.Uri

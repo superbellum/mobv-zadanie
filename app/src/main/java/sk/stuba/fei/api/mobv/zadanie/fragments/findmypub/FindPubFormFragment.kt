@@ -1,4 +1,4 @@
-package com.example.mobvzadanie.fragments.findmypub
+package sk.stuba.fei.api.mobv.zadanie.fragments.findmypub
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.mobvzadanie.R
-import com.example.mobvzadanie.databinding.FragmentFindPubFormBinding
+import sk.stuba.fei.api.mobv.zadanie.R
+import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentFindPubFormBinding
 
 class FindPubFormFragment : Fragment() {
     override fun onCreateView(
@@ -22,7 +22,7 @@ class FindPubFormFragment : Fragment() {
 
         binding.applyFormButton.setOnClickListener {
             it.findNavController().navigate(
-                FindPubFormFragmentDirections.actionFormFragmentToShowFragment(
+                sk.stuba.fei.api.mobv.zadanie.fragments.findmypub.FindPubFormFragmentDirections.actionFormFragmentToShowFragment(
                     binding.formNameEdit.text.toString(),
                     binding.formPubNameEdit.text.toString(),
                     binding.formPubLatitudeEdit.text.toString(),

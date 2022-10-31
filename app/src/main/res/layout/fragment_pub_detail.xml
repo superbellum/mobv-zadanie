@@ -9,7 +9,7 @@
 
         <variable
             name="pub"
-            type="com.example.mobvzadanie.data.Pub" />
+            type="sk.stuba.fei.api.mobv.zadanie.data.Pub" />
     </data>
 
     <LinearLayout
@@ -173,7 +173,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:text="Delete"
+            android:text="@string/delete_pub_button_delete"
             app:icon="@drawable/ic_baseline_delete_24"
             app:iconTint="#F44336" />
 

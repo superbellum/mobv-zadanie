@@ -10,10 +10,10 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/welcomeText"
+            android:id="@+id/fill_form_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fill the form:"
+            android:text="@string/fill_the_form"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -27,11 +27,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
             android:ems="10"
-            android:hint="Name"
+            android:hint="@string/find_pub_form_name"
             android:inputType="text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+            app:layout_constraintTop_toBottomOf="@+id/fill_form_text" />
 
         <EditText
             android:id="@+id/form_pub_name_edit"
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:ems="10"
-            android:hint="Pub name"
+            android:hint="@string/find_pub_form_pub_name"
             android:inputType="text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:ems="10"
-            android:hint="Pub latitude"
+            android:hint="@string/find_pub_form_pub_latitude"
             android:inputType="numberSigned|numberDecimal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:ems="10"
-            android:hint="Pub longitude"
+            android:hint="@string/find_pub_form_pub_longitude"
             android:inputType="numberSigned|numberDecimal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -75,7 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
-            android:text="Apply"
+            android:text="@string/find_pub_form_apply"
             app:icon="@drawable/ic_baseline_check_24"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

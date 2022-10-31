@@ -1,4 +1,4 @@
-package com.example.mobvzadanie.fragments.home
+package sk.stuba.fei.api.mobv.zadanie.fragments.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.example.mobvzadanie.R
-import com.example.mobvzadanie.databinding.FragmentHomeBinding
+import sk.stuba.fei.api.mobv.zadanie.R
+import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
     override fun onCreateView(

@@ -2,10 +2,10 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".fragments.findmypub.FindPubMapFragment">
+    tools:context=".fragments.findmypub.FindPubShowFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/findPubMapConstraint"
+        android:id="@+id/findPubShowConstraint"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="Name"
+            android:hint="@string/find_pub_show_name"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -25,7 +25,7 @@
             android:id="@+id/pub_name_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Pub Name"
+            android:hint="@string/find_pub_show_pub_name"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Show on Map"
+            android:text="@string/find_pub_show_on_map"
             app:icon="@android:drawable/ic_dialog_map"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

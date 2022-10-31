@@ -1,4 +1,4 @@
-package com.example.mobvzadanie.data
+package sk.stuba.fei.api.mobv.zadanie.data
 
 import com.google.gson.annotations.SerializedName
 

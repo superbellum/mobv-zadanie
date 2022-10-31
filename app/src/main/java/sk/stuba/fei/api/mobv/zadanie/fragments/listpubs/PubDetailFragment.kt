@@ -1,4 +1,4 @@
-package com.example.mobvzadanie.fragments.listpubs
+package sk.stuba.fei.api.mobv.zadanie.fragments.listpubs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.mobvzadanie.R
-import com.example.mobvzadanie.data.Datasource
-import com.example.mobvzadanie.databinding.FragmentPubDetailBinding
-import com.example.mobvzadanie.helpers.IntentHelper
+import sk.stuba.fei.api.mobv.zadanie.R
+import sk.stuba.fei.api.mobv.zadanie.data.Datasource
+import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentPubDetailBinding
+import sk.stuba.fei.api.mobv.zadanie.helpers.IntentHelper
 
 class PubDetailFragment : Fragment() {
     override fun onCreateView(
@@ -22,7 +22,8 @@ class PubDetailFragment : Fragment() {
             inflater, R.layout.fragment_pub_detail, container, false
         )
 
-        val args = PubDetailFragmentArgs.fromBundle(requireArguments())
+        val args =
+            sk.stuba.fei.api.mobv.zadanie.fragments.listpubs.PubDetailFragmentArgs.fromBundle(requireArguments())
         binding.pub = args.pub
 
         binding.openPubMapButton.setOnClickListener {
