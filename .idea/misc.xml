@@ -14,6 +14,7 @@
         <entry key="app/src/main/res/layout/fragment_establishment_detail.xml" value="0.5090579710144928" />
         <entry key="app/src/main/res/layout/fragment_find_establishment_form.xml" value="0.46603260869565216" />
         <entry key="app/src/main/res/layout/fragment_find_establishment_map.xml" value="0.46603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_find_pub_form.xml" value="0.30052083333333335" />
         <entry key="app/src/main/res/layout/fragment_find_pub_map.xml" value="0.5158514492753623" />
         <entry key="app/src/main/res/layout/fragment_find_pub_show.xml" value="0.5158514492753623" />
         <entry key="app/src/main/res/layout/fragment_find_restaurant_form.xml" value="0.46603260869565216" />

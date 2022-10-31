@@ -17,24 +17,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/pub_detail_name_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/black"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:padding="5dp">
-
-            <TextView
-                android:id="@+id/pub_detail_name_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@{pub.tags.name}"
-                android:textColor="@color/white"
-                android:textSize="24sp" />
-
-        </LinearLayout>
-
+            android:layout_margin="5dp"
+            android:text="@{pub.tags.name}"
+            android:textSize="24sp" />
+        
         <TextView
             android:id="@+id/pub_detail_opening_hours_text"
             style="@style/PubDetailTextStyle"
