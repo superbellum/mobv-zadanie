@@ -1,5 +1,6 @@
 package sk.stuba.fei.api.mobv.zadanie.fragments.listpubs
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
@@ -54,10 +55,24 @@ class PubDetailFragment : Fragment(), MenuProvider {
             true
         }
         R.id.delete_pub_menu_item -> {
-            Datasource.pubs.remove(binding.pub)
-            findNavController().navigateUp()
+            showDeletePubAlertDialog()
             true
         }
         else -> false
+    }
+
+    private fun showDeletePubAlertDialog() {
+        AlertDialog.Builder(requireContext())
+            .setTitle("Delete Pub")
+            .setMessage("Are you sure you want to delete this pub?")
+            .setCancelable(true)
+            .setPositiveButton("Yes") { _, _ ->
+                Datasource.pubs.remove(binding.pub)
+                findNavController().navigateUp()
+            }
+            .setNegativeButton("No") { dialog, _ ->
+                dialog.cancel()
+            }
+            .show()
     }
 }
