@@ -30,7 +30,7 @@
             style="@style/PubDetailTextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{pub.tags.opening_hours}"
+            android:text="@{pub.tags.openingHours}"
             android:tooltipText="Opening Hours"
             app:drawableStartCompat="@drawable/ic_baseline_access_time_24" />
 
@@ -75,7 +75,7 @@
             style="@style/PubDetailTextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{pub.tags.outdoor_seating}"
+            android:text="@{pub.tags.outdoorSeating}"
             android:tooltipText="Outdoor Seating"
             app:drawableStartCompat="@drawable/ic_baseline_airline_seat_recline_normal_24" />
 
@@ -84,7 +84,7 @@
             style="@style/PubDetailTextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{pub.tags.internet_access}"
+            android:text="@{pub.tags.internetAccess}"
             android:tooltipText="Internet Access"
             app:drawableStartCompat="@drawable/ic_baseline_wifi_24" />
 

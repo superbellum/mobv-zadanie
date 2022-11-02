@@ -30,7 +30,12 @@ class MainActivity : AppCompatActivity() {
         bottomNavView.setupWithNavController(navController)
 
         appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.homeScreen, R.id.findPubFormScreen, R.id.listPubsScreen)
+            setOf(
+                R.id.homeScreen,
+                R.id.findPubFormScreen,
+                R.id.listPubsScreen,
+                R.id.listWebPubsScreen
+            )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
 

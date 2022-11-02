@@ -7,5 +7,6 @@
     <include app:graph="@navigation/nav_home" />
     <include app:graph="@navigation/nav_list_pubs" />
     <include app:graph="@navigation/nav_find_my_pub" />
+    <include app:graph="@navigation/nav_list_web_pubs" />
 
 </navigation>

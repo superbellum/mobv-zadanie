@@ -25,7 +25,7 @@
                 android:id="@+id/card_pub_name_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/card_pub_name"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -33,7 +33,7 @@
                 android:id="@+id/card_pub_id_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/card_pub_id"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 

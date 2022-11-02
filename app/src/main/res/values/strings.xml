@@ -18,9 +18,15 @@
     <string name="about">About</string>
     <string name="bottom_nav_menu_item_home">Home</string>
     <string name="bottom_nav_menu_item_find_my_pub">Find My Pub</string>
-    <string name="bottom_nav_menu_item_list_pubs">List Pubs</string>
+    <string name="bottom_nav_menu_item_list_pubs">JSON Pubs</string>
+    <string name="bottom_nav_menu_item_list_web_pubs">Web Pubs</string>
     <string name="pub_detail">Pub Detail</string>
+    <string name="web_pub_detail">Web Pub Detail</string>
     <string name="menu_item_sort_by_name">Sort by Name</string>
     <string name="menu_item_about">About</string>
     <string name="menu_item_open_pub_on_map">Open on Map</string>
+    <string name="card_pub_name">Pub Name</string>
+    <string name="card_pub_id">Pub ID</string>
+    <string name="card_pub_id_text">ID: %d</string>
+    <string name="status_image_cd">status_image</string>
 </resources>
