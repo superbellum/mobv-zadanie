@@ -8,7 +8,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import sk.stuba.fei.api.mobv.zadanie.R
 import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentFindPubMapBinding
-import sk.stuba.fei.api.mobv.zadanie.helpers.IntentHelper
+import sk.stuba.fei.api.mobv.zadanie.service.IntentService
 
 class FindPubShowFragment : Fragment() {
     override fun onCreateView(
@@ -27,7 +27,7 @@ class FindPubShowFragment : Fragment() {
         binding.pubNameText.text = findMyPubFormData.pubName
 
         binding.showMapButton.setOnClickListener {
-            IntentHelper.showPubOnMap(
+            IntentService.showPubOnMap(
                 fragment = this,
                 latitude = findMyPubFormData.latitude,
                 longitude = findMyPubFormData.longitude

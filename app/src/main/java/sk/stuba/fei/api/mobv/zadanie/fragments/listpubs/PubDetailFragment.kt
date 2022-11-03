@@ -1,6 +1,5 @@
 package sk.stuba.fei.api.mobv.zadanie.fragments.listpubs
 
-import android.app.AlertDialog
 import android.os.Bundle
 import android.view.*
 import android.widget.Toast
@@ -17,7 +16,8 @@ import sk.stuba.fei.api.mobv.zadanie.data.IRemovePub.RemoveFrom
 import sk.stuba.fei.api.mobv.zadanie.data.JsonPubsViewModel
 import sk.stuba.fei.api.mobv.zadanie.data.WebPubsViewModel
 import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentPubDetailBinding
-import sk.stuba.fei.api.mobv.zadanie.helpers.IntentHelper
+import sk.stuba.fei.api.mobv.zadanie.service.DialogService.createAlertDialog
+import sk.stuba.fei.api.mobv.zadanie.service.IntentService
 import sk.stuba.fei.api.mobv.zadanie.service.NotificationService.notifyToast
 
 class PubDetailFragment : Fragment(), MenuProvider {
@@ -51,7 +51,7 @@ class PubDetailFragment : Fragment(), MenuProvider {
 
     override fun onMenuItemSelected(menuItem: MenuItem) = when (menuItem.itemId) {
         R.id.open_pub_on_map_menu_item -> {
-            IntentHelper.showPubOnMap(
+            IntentService.showPubOnMap(
                 fragment = this,
                 latitude = binding.pub!!.lat.toString(),
                 longitude = binding.pub!!.lon.toString()
@@ -66,21 +66,20 @@ class PubDetailFragment : Fragment(), MenuProvider {
     }
 
     private fun showDeletePubAlertDialog() {
-        AlertDialog.Builder(requireContext())
-            .setTitle("Delete Pub")
-            .setMessage("Are you sure you want to delete this pub?")
-            .setCancelable(true)
-            .setPositiveButton("Yes") { _, _ ->
+        createAlertDialog(
+            context = requireContext(),
+            title = "Delete Pub",
+            message = "Are you sure you want to delete this pub?",
+            isCancelable = true,
+            onOk = { _, _ ->
                 when (args.removePubFrom) {
                     RemoveFrom.JSON -> removePubFromViewModel(jsonPubsViewModel)
                     RemoveFrom.WEB -> removePubFromViewModel(webPubsViewModel)
                 }
                 findNavController().navigateUp()
-            }
-            .setNegativeButton("No") { dialog, _ ->
-                dialog.cancel()
-            }
-            .show()
+            },
+            onCancel = { dialog, _ -> dialog.cancel() }
+        ).show()
     }
 
     private fun removePubFromViewModel(viewModel: IRemovePub) {
