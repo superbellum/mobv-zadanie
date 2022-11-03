@@ -35,7 +35,7 @@ class WebPubsViewModel(
         }
     }
 
-    private fun getWebPubs() {
+    fun getWebPubs() {
         viewModelScope.launch {
             _status.value = LOADING
             try {

@@ -28,6 +28,12 @@ class ListWebPubsFragment : Fragment() {
         // Sets the adapter of the photosGrid RecyclerView
         binding.webPubsRecyclerView.adapter = WebPubAdapter()
 
+        binding.swipeContainer.setOnRefreshListener {
+            binding.swipeContainer.isRefreshing = false
+            viewModel.getWebPubs()
+            binding.webPubsRecyclerView.adapter = WebPubAdapter()
+        }
+
         return binding.root
     }
 }
