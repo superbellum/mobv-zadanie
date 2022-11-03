@@ -7,16 +7,22 @@ import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import sk.stuba.fei.api.mobv.zadanie.R
 import sk.stuba.fei.api.mobv.zadanie.data.Pub
-import sk.stuba.fei.api.mobv.zadanie.data.PubsApiStatus
+import sk.stuba.fei.api.mobv.zadanie.service.PubsApi.PubsApiStatus
 
 @BindingAdapter("cardPubName")
 fun bindPubName(textView: TextView, pub: Pub) {
     textView.text = pub.tags?.name ?: "<name>"
 }
 
-@BindingAdapter("listData")
-fun bindRecyclerView(recyclerView: RecyclerView, data: List<Pub>?) {
+@BindingAdapter("listWebPubData")
+fun bindWebPubsRecyclerView(recyclerView: RecyclerView, data: List<Pub>?) {
     val adapter = recyclerView.adapter as WebPubAdapter
+    adapter.submitList(data)
+}
+
+@BindingAdapter("listPubData")
+fun bindPubsRecyclerView(recyclerView: RecyclerView, data: List<Pub>?) {
+    val adapter = recyclerView.adapter as JsonPubAdapter
     adapter.submitList(data)
 }
 

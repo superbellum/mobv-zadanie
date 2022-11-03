@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".fragments.listpubs.ListPubsFragment">
 
+    <data>
+
+        <variable
+            name="viewModel"
+            type="sk.stuba.fei.api.mobv.zadanie.data.JsonPubsViewModel" />
+    </data>
+
     <LinearLayout
         android:id="@+id/listPubsConstraint"
         android:layout_width="match_parent"
@@ -15,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:text="@string/pubs_total"
+            android:text="@{@string/pubs_total(viewModel.pubs.size)}"
             android:textSize="14sp" />
 
         <androidx.recyclerview.widget.RecyclerView
@@ -24,6 +31,7 @@
             android:layout_height="match_parent"
             android:scrollbars="vertical"
             app:layoutManager="LinearLayoutManager"
+            app:listPubData="@{viewModel.pubs}"
             tools:listitem="@layout/pub_list_item" />
     </LinearLayout>
 

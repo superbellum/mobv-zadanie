@@ -5,13 +5,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
+import androidx.fragment.app.activityViewModels
 import sk.stuba.fei.api.mobv.zadanie.adapter.WebPubAdapter
 import sk.stuba.fei.api.mobv.zadanie.data.WebPubsViewModel
 import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentListWebPubsBinding
 
 class ListWebPubsFragment : Fragment() {
-    private val viewModel: WebPubsViewModel by viewModels()
+    private val viewModel: WebPubsViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

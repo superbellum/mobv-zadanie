@@ -2,25 +2,29 @@ package sk.stuba.fei.api.mobv.zadanie.fragments.listpubs
 
 import android.app.AlertDialog
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
+import android.widget.Toast
 import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import sk.stuba.fei.api.mobv.zadanie.R
-import sk.stuba.fei.api.mobv.zadanie.data.Datasource
+import sk.stuba.fei.api.mobv.zadanie.data.IRemovePub
+import sk.stuba.fei.api.mobv.zadanie.data.IRemovePub.RemoveFrom
+import sk.stuba.fei.api.mobv.zadanie.data.JsonPubsViewModel
+import sk.stuba.fei.api.mobv.zadanie.data.WebPubsViewModel
 import sk.stuba.fei.api.mobv.zadanie.databinding.FragmentPubDetailBinding
 import sk.stuba.fei.api.mobv.zadanie.helpers.IntentHelper
+import sk.stuba.fei.api.mobv.zadanie.service.NotificationService.notifyToast
 
 class PubDetailFragment : Fragment(), MenuProvider {
     private lateinit var binding: FragmentPubDetailBinding
+    private lateinit var args: PubDetailFragmentArgs
+    private val webPubsViewModel: WebPubsViewModel by activityViewModels()
+    private val jsonPubsViewModel: JsonPubsViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -31,7 +35,7 @@ class PubDetailFragment : Fragment(), MenuProvider {
             inflater, R.layout.fragment_pub_detail, container, false
         )
 
-        val args = PubDetailFragmentArgs.fromBundle(requireArguments())
+        args = PubDetailFragmentArgs.fromBundle(requireArguments())
         binding.pub = args.pub
 
         // menu
@@ -67,12 +71,26 @@ class PubDetailFragment : Fragment(), MenuProvider {
             .setMessage("Are you sure you want to delete this pub?")
             .setCancelable(true)
             .setPositiveButton("Yes") { _, _ ->
-                Datasource.pubs.remove(binding.pub)
+                when (args.removePubFrom) {
+                    RemoveFrom.JSON -> removePubFromViewModel(jsonPubsViewModel)
+                    RemoveFrom.WEB -> removePubFromViewModel(webPubsViewModel)
+                }
                 findNavController().navigateUp()
             }
             .setNegativeButton("No") { dialog, _ ->
                 dialog.cancel()
             }
             .show()
+    }
+
+    private fun removePubFromViewModel(viewModel: IRemovePub) {
+        viewModel.removePub(binding.pub!!).also {
+            val message = if (it) {
+                "Removed pub ${binding.pub!!.id}"
+            } else {
+                "Could not remove pub ${binding.pub!!.id}"
+            }
+            notifyToast(requireContext(), message, Toast.LENGTH_SHORT)
+        }
     }
 }

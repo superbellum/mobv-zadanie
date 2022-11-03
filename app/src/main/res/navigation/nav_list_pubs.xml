@@ -22,5 +22,8 @@
         <argument
             android:name="pub"
             app:argType="sk.stuba.fei.api.mobv.zadanie.data.Pub" />
+        <argument
+            android:name="removePubFrom"
+            app:argType="sk.stuba.fei.api.mobv.zadanie.data.IRemovePub$RemoveFrom" />
     </fragment>
 </navigation>

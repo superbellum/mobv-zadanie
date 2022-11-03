@@ -6,13 +6,14 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import sk.stuba.fei.api.mobv.zadanie.data.IRemovePub.RemoveFrom.WEB
+import sk.stuba.fei.api.mobv.zadanie.data.IRemovePub.RemoveFrom.JSON
 import sk.stuba.fei.api.mobv.zadanie.data.Pub
 import sk.stuba.fei.api.mobv.zadanie.databinding.PubListItemBinding
-import sk.stuba.fei.api.mobv.zadanie.fragments.listpubs.ListWebPubsFragmentDirections
+import sk.stuba.fei.api.mobv.zadanie.fragments.listpubs.ListPubsFragmentDirections
 
-class WebPubAdapter : ListAdapter<Pub, WebPubAdapter.WebPubViewHolder>(DiffCallback) {
-    class WebPubViewHolder(
+class JsonPubAdapter : ListAdapter<Pub, JsonPubAdapter.JsonPubViewHolder>(DiffCallback) {
+
+    class JsonPubViewHolder(
         private var binding: PubListItemBinding
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(pub: Pub) {
@@ -32,19 +33,19 @@ class WebPubAdapter : ListAdapter<Pub, WebPubAdapter.WebPubViewHolder>(DiffCallb
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = WebPubViewHolder(
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = JsonPubViewHolder(
         PubListItemBinding.inflate(LayoutInflater.from(parent.context))
     )
 
 
-    override fun onBindViewHolder(holder: WebPubViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: JsonPubViewHolder, position: Int) {
         val pub = getItem(position)
         holder.bind(pub)
 
         // show details of current pub by clicking on current item view
         holder.itemView.setOnClickListener {
             it.findNavController().navigate(
-                ListWebPubsFragmentDirections.actionListWebPubsToPubDetail(pub, WEB)
+                ListPubsFragmentDirections.actionListPubsToPubDetail(pub, JSON)
             )
         }
     }

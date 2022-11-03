@@ -1,4 +1,4 @@
-package sk.stuba.fei.api.mobv.zadanie.web
+package sk.stuba.fei.api.mobv.zadanie.service
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
@@ -35,4 +35,6 @@ interface PubsApiService {
 
 object PubsApi {
     val service: PubsApiService by lazy { retrofit.create(PubsApiService::class.java) }
+
+    enum class PubsApiStatus { LOADING, ERROR, DONE }
 }

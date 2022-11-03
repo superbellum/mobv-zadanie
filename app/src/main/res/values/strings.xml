@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MobvZadanie</string>
 
-    <string name="pubs_total">TextView</string>
+    <string name="pubs_total">Total: %d</string>
     <string name="fill_the_form">Fill the form:</string>
     <string name="find_pub_form_name">Name</string>
     <string name="find_pub_form_pub_name">Pub name</string>
